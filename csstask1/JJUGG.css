@@ -1,0 +1,17 @@
+body{
+    padding:0;
+    margin:0;
+}
+.box{
+    width:90%;
+    background-color:#fdfdfd;
+    margin:0 auto;
+}
+.block{
+    background-color:#ffa600;
+    width:31%;
+    padding-bottom:31%;
+    margin:1.166%;
+    float:left;
+    border-radius: 10%;
+}
