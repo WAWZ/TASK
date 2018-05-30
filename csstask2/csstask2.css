@@ -4,16 +4,23 @@ html,body{
     height: 100%;
     background-color:#68cdd5;
 }
-
+img{
+    margin: 0;
+    padding: 0;
+}
 .main{
     width: 100%;
 }
 .banner{
     text-align: left;
     overflow: hidden;
+    padding-top:10px ;
+    padding-left: 10px;
 }
 .banner>img{
     position:absolute;
+    /*margin-left:2px ;*/
+    /*padding-top: 2px;*/
     width: 27px;
     height: 27px;
 }
@@ -22,14 +29,14 @@ html,body{
     text-align: center;
     overflow: hidden;
 }
-.head>img{
-    position:absolute;
-    margin-left: -91px;
-}
+/*.head>img{*/
+    /*position:absolute;*/
+    /*margin-left: -91px;*/
+/*}*/
 .middle{
     padding-top:100px;
     padding-bottom: 100px;
-   width: 71.8%;
+    width: 71.8%;
     font-size:15px;
     color:#fff;
     margin:auto;
