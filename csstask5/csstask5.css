@@ -109,7 +109,7 @@ main{
 .skill img{
     /*vertical-align: middle;*/
     height: 1.1rem;
-    margin-left: 6%;
+    margin-left:calc(3% + 1rem);
     margin-right: 1rem;
     width:0.2rem ;
     /*height: 1rem;*/
@@ -185,9 +185,14 @@ main{
     width: calc(100% - 8.1rem);
 }
 .rowspan2{
+    /*position: absolute;*/
+    /*left: calc(3% +  1rem);*/
     width: calc(100% - 9.1rem);
     margin-left: 1rem;
     color: #333333;
+}
+.rowspan0{
+    left: calc(3% + 1rem);
 }
 .row5{
     width: 94%;
