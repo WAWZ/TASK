@@ -44,7 +44,8 @@ header{
 /*}*/
 .main{
     width: 88%;
-    line-height: 0.5rem;
+    /*line-height: 0.5rem;*/
+    line-height: 9vh;
     font-size: 0.16rem;
     color: #b3b3b3;
     text-align: center;
@@ -65,37 +66,44 @@ header{
 }
 .top{
     font-size: 0.2rem;
-    line-height: 0.45rem;
+    line-height: 9vh;
+    /*line-height: 0.45rem;*/
     text-align: center;
     color: #fcc768;
     background-color: #ffffff;
     border-bottom: 1px solid #fcc768;
 }
 .version{
+    /*display: inline-block;*/
+    /*display: inline-block;*/
     width: 82%;
     font-size:.17rem;
     color: #ffffff;
     text-align: center;
-    line-height: .7rem;
+    /*line-height: .7rem;*/
+    line-height: 13vh;
     background-color: #69d1e9;
     margin: .14rem auto;
 }
 .description{
     font-size: .13rem;
     color: #9a9a9a;
-    line-height: 0.16rem;
+    /*line-height: 0.16rem;*/
+    line-height: 3vh;
     text-align: center;
 }
 .point{
     font-size: 0.1rem;
     text-align: center;
-    line-height: .16rem;
+    /*line-height: .16rem;*/
+    line-height: 3vh;
 }
 .circle{
     display: inline-block;
     width: 0.08rem;
     height: 0.08rem;
-    line-height:0.16rem;
+    /*line-height:0.16rem;*/
+    line-height: 3vh;
     border-radius: 100%; /*margin:0.03rem auto;*/
 }
 .blue{
@@ -121,13 +129,15 @@ header{
 .review-text{
     width: 100%;
     display: inline-block;
-    line-height: .5rem;
+    /*line-height: .5rem;*/
+    line-height: 9vh;
     float: left;
 }
 .icon1{
     float:right;
-    margin-top: -.33rem;
+    /*margin-top: -.33rem;*/
     margin-right: 20px;
+    margin-top: -5.5vh;
     display: inline-block;
     width: 13px;
     height: 13px;
