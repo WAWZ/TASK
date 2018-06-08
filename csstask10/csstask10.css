@@ -1,0 +1,34 @@
+html,body{
+    font-size: 62.5%;
+}
+html,body,p,span,div{
+    padding: 0;
+    margin: 0;
+}
+.body-width{
+    width: 80%;
+}
+.header-nav{
+    background-color: #1d7ad9;
+    color: #ffffff;
+}
+.header-nav-left{
+    float: left;
+    line-height: 4rem;
+    font-size: 1.2rem;
+}
+.header-nav-right{
+    text-align: right;
+    line-height: 4rem;
+    font-size: 1.3rem;
+}
+.header-nav-span{
+    display: inline-block;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: bold;
+}
+.header-nav-span:hover{
+    background-color: #ffffff;
+    color: #333333;
+}

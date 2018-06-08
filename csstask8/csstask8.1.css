@@ -6,10 +6,11 @@ html,body,div,a{
     margin: 0;
     padding: 0;
 }
+
+/*------header------*/
 header{
     background-color: #ffffff;
 }
-/*------header------*/
 /*------header-top-----*/
 .header-wrap-text{
     float:left;
@@ -42,6 +43,7 @@ nav.navbar{
     background-color: #26a26f;
     margin-bottom: 0;
     border: none;
+    font-size: 15px;
 }
 .navbar-collapse{
     padding: 0;
@@ -82,6 +84,26 @@ footer{
     color: #ffffff;
     /*line-height: 20px;*/
 }
+@media (min-width: 991px) {
+    .col-zdlg-1-10{
+        float: left;
+        width:10%;
+    }
+}
+/*@media (min-width: 1024px) {*/
+    /*.col-md-2-5{*/
+        /*float: left;*/
+        /*width:20%;*/
+    /*}*/
+/*}*/
+
+
+
+
+
+
+
+
 /*footerlink-blogroll*/
 .footer-link{
     padding-top: 10px;
@@ -89,9 +111,9 @@ footer{
     background-color: #fff;
 }
 .link{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+    /*align-items: center;*/
 }
 .blogroll-p{
     line-height: 25px;
@@ -99,14 +121,20 @@ footer{
     font-size: 16px;
     color: #333333;
 }
-ul{
-    text-align:left;
-    padding-left: 20px;
+.blogroll ul{
+    /*text-align:left;*/
+    /*padding-left: 20px;*/
     color:#999999;
+    margin-bottom: 0;
 }
-li{
-    flex: 1;
-    justify-items: start;
+.blogroll ul  li{
+    text-align: left;
+    margin-bottom: 1rem;
+    /*flex: 1;*/
+    /*justify-items: start;*/
+}
+li a{
+    color: #999999;
 }
 .footer-top{
     padding: 15px;
@@ -172,7 +200,8 @@ li{
 
 .peoplebg{
     background-color: #ffffff;
-    border: 1px solid #fafafa;
+    border: 2px solid  #eeeded;
+    border-radius: 2px;
     padding: 1.5rem 2rem;
 }
 .people1{
@@ -261,10 +290,10 @@ h5{
     /*height: 80px;*/
 }
 .bg3-img{
-    height: 50px;
+    height: 45px;
 }
 .bg4-img{
-    width: 120px;
+    width: 110px;
 }
 .bg5-img{
     width: 80px;
@@ -289,14 +318,14 @@ h5{
 }
 .circle{
     display: inline-block;
-    width: .8rem;
-    height: 0.8rem;
+    width: 1rem;
+    height: 1rem;
     /*line-height:0.16rem;*/
-    line-height: 3vh;
+    /*line-height: 3vh;*/
     border-radius: 100%; /*margin:0.03rem auto;*/
 }
-.blue{
-    background-color: #69d1e9;
+ .blue{
+    background-color: #29b078;
 }
 .white{
     background-color: #f0f0f0;
