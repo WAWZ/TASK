@@ -5,6 +5,7 @@ html,body{
 html,body,div,a{
     margin: 0;
     padding: 0;
+    /*color: #ffffff;*/
 }
 /*--------------------header----------------------*/
 header{
@@ -47,6 +48,12 @@ ul{
         margin: 0;
     }
 }
+/*@media (max-width: 400px) {*/
+    /*.col-mian-12{*/
+        /*float: left;*/
+        /*width: 100%;*/
+    /*}*/
+/*}*/
 .header-bottom{
     background-color: #26a26f;
 }
@@ -87,7 +94,7 @@ header ul li a{
 /*-------------------------------main-------------------------*/
 .main-title{
     line-height: 4rem;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: bold;
     border-bottom:1px solid #d0d6d9;
 }
@@ -100,18 +107,22 @@ header ul li a{
     /*display: inline-block;*/
     /*padding-left: 1rem;*/
     margin-right: 3rem;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: #494949;
     word-break: keep-all;
 }
-.border-direction-p:hover{
+.border-direction-p a{
+    color: #494949;
+    text-decoration: none;
+}
+.border-direction-p:hover >a{
     background-color: #29b078;
     color: #ffffff;
 }
 .border-direction-title{
     /*padding-left: 1rem;*/
     padding-right: 2rem;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 .main-subtitle{
     line-height: 5rem;
@@ -119,7 +130,13 @@ header ul li a{
     font-weight: bold;
     border-bottom:1px solid #d0d6d9;
 }
-
+.main-subtitle a{
+    color: #333333;
+    text-decoration: none;
+}
+a:active, a:focus {
+    outline:none;
+}
 .border-direction{
     border-bottom:1px solid #d0d6d9;
     /*padding-left: 15px;*/
@@ -270,6 +287,12 @@ footer{
     background-color: #26a26f;
     color: #ffffff;
     /*line-height: 20px;*/
+}
+@media (min-width: 500px)and (max-width:992px) {
+    .col-xs-2-6{
+        float: left;
+        width: 50%;
+    }
 }
 .footer-top{
     padding: 15px;

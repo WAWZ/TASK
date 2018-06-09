@@ -16,7 +16,7 @@ header{
     float:left;
     text-align: center;
     line-height: 40px;
-    font-size: 12px;
+    font-size: 1rem;
     color: #26a26f;
 }
 .header-wrap-image{
@@ -84,7 +84,7 @@ footer{
     color: #ffffff;
     /*line-height: 20px;*/
 }
-@media (min-width: 991px) {
+@media (min-width: 1024px) {
     .col-zdlg-1-10{
         float: left;
         width:10%;
@@ -111,6 +111,7 @@ footer{
     background-color: #fff;
 }
 .link{
+    list-style: none;
     /*display: flex;*/
     /*justify-content: space-around;*/
     /*align-items: center;*/
@@ -128,8 +129,10 @@ footer{
     margin-bottom: 0;
 }
 .blogroll ul  li{
+    font-size: 1rem;
     text-align: left;
     margin-bottom: 1rem;
+    font-size: 1.2rem;
     /*flex: 1;*/
     /*justify-items: start;*/
 }
@@ -187,28 +190,37 @@ li a{
     display: flex;
     align-items: center;
     /*justify-content: center;*/
-    font-size: 12px;
+    font-size: 1rem;
     /*padding-left: 2rem;*/
 }
 .main-icon{
+    font-size: 1.5rem;
     width: 150px;
-    height: 150px;
+    height: 17rem;
     margin: 0 auto;
     margin: 60px auto 40px;
 }
 /*----优秀学员展示图---------*/
 
-.peoplebg{
+.peoplebg {
     background-color: #ffffff;
-    border: 2px solid  #eeeded;
+    /*border: 2px solid  #eeeded;*/
     border-radius: 2px;
+
     padding: 1.5rem 2rem;
+
+    -moz-box-shadow: 1px 1px 5px #e6e6e6;
+    -webkit-box-shadow: 1px 1px 5px #e6e6e6;
+    box-shadow: 1px 1px 5px #e6e6e6;
 }
 .people1{
     margin-bottom: 20px;
 }
-h5{
+h4{
     text-align: center;
+}
+.peoplebg-p{
+    font-size: 1.4rem;
 }
 .peopleimg1{
     margin: 10px auto;
@@ -266,20 +278,23 @@ h5{
 }
 
 @media (min-width: 1200px) {
-    .col-zdlg-2-5{
+    .col-zdlg-2-5 {
         float: left;
-        width:20%;
+        width: 20%;
     }
 }
 .col-red-border{
     background-color: #ffffff;
-    margin-bottom:5rem ;
+    /*margin-bottom:5rem ;*/
 }
 .partner-bg{
     text-align: center;
     height: 120px;
     line-height: 120px;
     vertical-align: middle;
+}
+.partner-bg-bottom{
+    margin-bottom: 3rem;
 }
 .bg1-img{
     width: 110px;
@@ -304,7 +319,7 @@ h5{
 /*--战略合作企业标题 ---*/
 .partner-p{
     margin:40px auto ;
-    font-size: 16px;
+    font-size: 1.7rem;
     color: #333333;
     font-weight:bold ;
 }
@@ -334,7 +349,8 @@ h5{
 
 /*学习路线*/
 .path{
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
+    /*margin-top: 1rem;*/
 }
 .flow-path{
     /*background-color: #ffffff;*/
@@ -354,18 +370,19 @@ h5{
     background-color: #ffffff;
     border: 1px solid #f0f0f0;
     margin: 2px;
+    font-size: 1.3rem;
     /*flex-shrink: 1;*/
 }
 .flow-left-span{
     position: relative;
-    top: 37%;
+    top: 33%;
     left:46% ;
 }
 .flow-center{
-    width: 50%;
+    width: 60%;
     margin-left:2px ;
     margin-right: 2px;
-    font-size: 1px;
+    font-size:1.4rem;
 }
 .flow-right{
     width: 40px;
@@ -374,3 +391,30 @@ h5{
     background-size: 100% 100%;
     margin-left: 2px;
 }
+@media (min-width :1240px) {
+    .flow-img-hidden{
+        display:none ;
+    }
+}
+@media (min-width: 500px)and (max-width:992px) {
+    .col-xs-2-6{
+        float: left;
+        width: 50%;
+    }
+}
+@media (max-width: 767px  ){
+    .partner-img-hidden{
+        display:none ;
+        /*visibility: hidden;*/
+}
+}
+
+@media (min-width: 1200px  ){
+    .partner-img-hidden{
+        display:none ;
+
+        /*visibility: hidden;*/
+    }
+}
+
+

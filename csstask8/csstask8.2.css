@@ -156,7 +156,12 @@ header ul li a{
     border-radius: 100%;
     border: 1px solid #ff9052;
 }
-
+.special-cirlce .main-left-span{
+    color: #ff9052;
+}
+.special-cirlce .circle{
+    background-color: #ff9052;
+}
 .main-left-p:hover>.main-left-span{
     color: #ff9052;
 }
@@ -205,6 +210,12 @@ footer{
     background-color: #26a26f;
     color: #ffffff;
     /*line-height: 20px;*/
+}
+@media (min-width: 500px)and (max-width:992px) {
+    .col-xs-2-6{
+        float: left;
+        width: 50%;
+    }
 }
 .footer-top{
     padding: 15px;
