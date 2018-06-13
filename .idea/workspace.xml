@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6b67204-8e01-4479-8545-31ab48714bd7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask11" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/css/task11.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/sass/gulpfile.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/csstask11" afterPath="$PROJECT_DIR$/csstask11" />
     </list>
     <ignored path="XZYTASK.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -246,7 +244,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527558466535</updated>
-      <workItem from="1528868575106" duration="6879000" />
+      <workItem from="1528868575106" duration="7000000" />
     </task>
     <task id="LOCAL-00001" summary="c12">
       <created>1528868728177</created>
@@ -255,11 +253,18 @@
       <option name="project" value="LOCAL" />
       <updated>1528868728177</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="csstask11">
+      <created>1528875780149</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1528875780149</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6879000" />
+    <option name="totallyTimeSpent" value="7000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1370" height="729" extended-state="0" />
@@ -318,7 +323,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="c12" />
-    <option name="LAST_COMMIT_MESSAGE" value="c12" />
+    <MESSAGE value="csstask11" />
+    <option name="LAST_COMMIT_MESSAGE" value="csstask11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
