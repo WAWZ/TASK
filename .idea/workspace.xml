@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6b67204-8e01-4479-8545-31ab48714bd7" name="Default" comment="css">
+    <list default="true" id="b6b67204-8e01-4479-8545-31ab48714bd7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/csstask11" afterPath="$PROJECT_DIR$/csstask11" />
-      <change beforePath="$PROJECT_DIR$/csstask6/.idea/.name" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/csstask6/.idea/csstask6.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/csstask6/.idea/encodings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/csstask6/.idea/misc.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/csstask6/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/csstask6/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/csstask7/.idea/workspace.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ct11/ct11.css" afterPath="$PROJECT_DIR$/ct11/ct11.css" />
-      <change beforePath="$PROJECT_DIR$/ct11/ct11.css.map" afterPath="$PROJECT_DIR$/ct11/ct11.css.map" />
       <change beforePath="$PROJECT_DIR$/ct11/ct11.html" afterPath="$PROJECT_DIR$/ct11/ct11.html" />
-      <change beforePath="$PROJECT_DIR$/ct11/ct11.scss" afterPath="$PROJECT_DIR$/ct11/ct11.scss" />
     </list>
     <ignored path="XZYTASK.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,11 +49,11 @@
       <file leaf-file-name="ct11.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ct11/ct11.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="812">
-              <caret line="29" column="7" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+            <state relative-caret-position="168">
+              <caret line="6" column="59" lean-forward="true" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
               <folding>
-                <element signature="e#781#787#0" expanded="true" />
-                <element signature="e#787#793#0" expanded="true" />
+                <element signature="e#776#782#0" expanded="true" />
+                <element signature="e#782#788#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,8 +112,8 @@
         <option value="$PROJECT_DIR$/csstask11/csstask11.css" />
         <option value="$PROJECT_DIR$/csstask11/csstask11.html" />
         <option value="$PROJECT_DIR$/csstask11/csstask11.scss" />
-        <option value="$PROJECT_DIR$/ct11/ct11.html" />
         <option value="$PROJECT_DIR$/ct11/ct11.scss" />
+        <option value="$PROJECT_DIR$/ct11/ct11.html" />
       </list>
     </option>
   </component>
@@ -271,7 +261,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527558466535</updated>
-      <workItem from="1528868575106" duration="10132000" />
+      <workItem from="1528868575106" duration="10354000" />
     </task>
     <task id="LOCAL-00001" summary="c12">
       <created>1528868728177</created>
@@ -301,16 +291,24 @@
       <option name="project" value="LOCAL" />
       <updated>1528876790831</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="csstask11">
+      <created>1528879031165</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1528879031165</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10132000" />
+    <option name="totallyTimeSpent" value="10354000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="0" width="1323" height="729" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25401685" sideWeight="0.48681897" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25401685" sideWeight="0.48681897" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -364,9 +362,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="c12" />
-    <MESSAGE value="csstask11" />
     <MESSAGE value="css" />
-    <option name="LAST_COMMIT_MESSAGE" value="css" />
+    <MESSAGE value="csstask11" />
+    <option name="LAST_COMMIT_MESSAGE" value="csstask11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -635,11 +633,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ct11/ct11.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="29" column="7" lean-forward="false" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
+        <state relative-caret-position="168">
+          <caret line="6" column="59" lean-forward="true" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
           <folding>
-            <element signature="e#781#787#0" expanded="true" />
-            <element signature="e#787#793#0" expanded="true" />
+            <element signature="e#776#782#0" expanded="true" />
+            <element signature="e#782#788#0" expanded="true" />
           </folding>
         </state>
       </provider>
