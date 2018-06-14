@@ -16,23 +16,14 @@ header{
     right: 0;
     z-index: 9990;
 }
-.header-nav{
-    display: flex;
-    /*flex-direction: column;*/
-    align-items: center;
-    height: 0.46rem;
-    /*position: fixed;*/
-    /*top: 0;*/
-    /*left: 0;*/
-    /*right: 0;*/
-    /*!*line-height: 0.46rem;*!*/
-}
+
 .nav-icon{
     width: .16rem;
     height: .16rem;
     background: url(image/nav.png);
     background-size: cover;
-
+    margin-top: .12rem;
+    margin-left: .2rem;
 }
 /*.header-nav {*/
 

@@ -7,22 +7,32 @@ html,body,p,h3,span,img,div{
     margin: 0;
 }
 .navigation{
+
+}
+.header-result{
     position: fixed;
     top:0;
     left: 0;
     right: 0;
-    border-bottom: 0.3px solid #74d4eb;
+    border-bottom: 1px solid #74d4eb;
     z-index: 999;
-
-}
-.header-result{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #29bde0;
     line-height: .5rem;
     font-size: .22rem;
+    padding-left: .2rem;
+    padding-right: .2rem;
 }
-.navigation .row img{
+.header-result  img {
     vertical-align: middle;
     height: .26rem;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .nav-middle{
     text-align: center;
@@ -86,14 +96,16 @@ html,body,p,h3,span,img,div{
     text-align:right ;
 }
 .night{
-    padding-top: .05rem;
+    /*padding-top: .05rem;*/
     font-size: .13rem;
     color: #bcbcbc;
+    line-height: .22rem;
 }
 .daytime{
     font-size:.13rem ;
     color: #bcbcbc;
-    padding-bottom: .05rem;
+    /*padding-bottom: .05rem;*/
+    line-height: .22rem;
 
 }
 footer{
@@ -147,4 +159,7 @@ a:hover {
     border-bottom: 1px solid #75c9d4;
     -webkit-transform: translate(0,0%) rotate(-135deg);
     transform: translate(0,0%) rotate(-135deg);
+}
+.ls{
+    letter-spacing: .12rem;
 }

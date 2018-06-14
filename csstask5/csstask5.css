@@ -115,21 +115,6 @@ main{
     /*height: 1rem;*/
     /*vertical-align: middle;*/
 }
-/*content*/
-/*.content{*/
-    /*margin:0 1rem;*/
-    /*font-size: 1.4rem;*/
-/*}*/
-/*.content img{*/
-    /*vertical-align: middle;*/
-/*}*/
-/*.row1{*/
-    /*line-height: 4rem;*/
-    /*line-height: 4rem;*/
-    /*width: 100%;*/
-    /*border-bottom: 1px solid #e1e5e7;*/
-    /*font-size: 1.3rem;*/
-/*}*/
 .row2{
     width: 94%;
     margin: 0 auto;
@@ -146,14 +131,6 @@ main{
     margin-bottom: 8rem;
     border-bottom: 1px solid #e1e5e7;
 }
-/*.row1 img{*/
-    /*height: 0.6rem;*/
-    /*!*margin-left: 1rem;*!*/
-    /*!*margin-right: 1rem;*!*/
-/*}*/
-/*.row1 span{*/
-    /*font-size: 1.2rem;*/
-/*}*/
 .rowstar{
     width: 1rem;
     /*margin-right: 1rem;*/
@@ -168,7 +145,6 @@ main{
 .star-middle{
     margin-right: -1rem;
     margin-left: -1rem;
-
 }
 .rowspan1{
     width: 6rem;
@@ -185,8 +161,6 @@ main{
     width: calc(100% - 8.1rem);
 }
 .rowspan2{
-    /*position: absolute;*/
-    /*left: calc(3% +  1rem);*/
     width: calc(100% - 9.1rem);
     margin-left: 1rem;
     color: #333333;
@@ -198,8 +172,6 @@ main{
     width: 94%;
     margin: 0 auto;
     height: 4rem;
-    /*line-height: 4rem;*/
-    /*border-bottom: 1px solid #e1e5e7;*/
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -214,28 +186,6 @@ main{
     /*align-items: center;*/
     /*justify-content: space-around;*/
 }
-/*.left{*/
-    /*width:116.92px ;*/
-/*}*/
-/*.row5>span{*/
-
-    /*display: inline-block;*/
-    /*vertical-align: middle;*/
-/*}*/
-/*.row5>p{*/
-    /*width:calc(100% - 116.92px);*/
-/*}*/
-
-/*.row5>p{*/
-    /*margin: 0  0 0 1rem ;*/
-    /*!*margin-left: 1rem;*!*/
-    /*display: inline-block;*/
-    /*line-height: 2rem;*/
-    /*font-size: 1.2rem;*/
-    /*vertical-align: middle;*/
-    /*width: 50%;*/
-
-/*}*/
 /*footer*/
 footer{
     width: 100%;
@@ -248,17 +198,6 @@ footer{
     background-color: #ffffff;
     /*outline: none;*/
 }
-
-/*.message, .contact{
-    padding:0;
-    flex: 1 50%;
-    font-size: 2rem;
-    color: #ffffff;
-    text-align: center;
-    border: 1px solid #5fcffd;
-    border-radius: 0.6rem;
-    margin:1rem;
-}*/
 button{
     padding: 0;
     box-sizing: border-box;
