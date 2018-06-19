@@ -2,39 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6b67204-8e01-4479-8545-31ab48714bd7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/csstask13.1.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/csstask13.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/csstask13.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/110.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/111.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/22.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/222.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/33.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/333.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/3f108638-a9ca-4218-a528-a83d2e2200f0 (1).png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/3f108638-a9ca-4218-a528-a83d2e2200f0.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/4.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/44.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/cnav.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/laba.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/nav!.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/nav.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/navh.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/navl.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/navr.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/play.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/set.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/tanha.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/wenhao.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/卧底胜利.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/圆角矩形11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/形状1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/椭圆2拷贝.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/矩形10拷贝.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/谢春花 - 理想三旬 (Live).mp3" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/首页.psd" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/csstask11" afterPath="$PROJECT_DIR$/csstask11" />
+      <change beforePath="$PROJECT_DIR$/csstask13/csstask13--1.html" afterPath="$PROJECT_DIR$/csstask13/csstask13--1.html" />
     </list>
     <ignored path="XZYTASK.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="csstask13--1.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="csstask13--1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/csstask13/csstask13--1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-896">
-              <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <state relative-caret-position="168">
+              <caret line="48" column="27" lean-forward="false" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
               <folding>
                 <element signature="e#398#404#0" expanded="true" />
                 <element signature="e#585#591#0" expanded="true" />
@@ -71,7 +41,7 @@
       <file leaf-file-name="csstask13.2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/csstask13/csstask13.2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
+            <state relative-caret-position="-351">
               <caret line="173" column="53" lean-forward="false" selection-start-line="173" selection-start-column="53" selection-end-line="173" selection-end-column="53" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -82,12 +52,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alltask.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="alltask.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alltask/alltask.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
+            <state relative-caret-position="479">
               <caret line="25" column="88" lean-forward="true" selection-start-line="25" selection-start-column="88" selection-end-line="25" selection-end-column="88" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="csstask13-3.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/csstask13/csstask13-3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="115" column="25" lean-forward="false" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
+              <folding>
+                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,16 +126,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-4172">
               <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="195" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="csstask7-2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/csstask7/csstask7-2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="50" column="36" lean-forward="false" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -251,11 +223,11 @@
         <option value="$PROJECT_DIR$/csstask7/csstask7-2.css" />
         <option value="$PROJECT_DIR$/csstask7/csstask7-3.html" />
         <option value="$PROJECT_DIR$/csstask13/csstask13-3.html" />
-        <option value="$PROJECT_DIR$/csstask13/csstask13--1.html" />
         <option value="$PROJECT_DIR$/csstask13/csstask13.scss" />
         <option value="$PROJECT_DIR$/csstask13/csstask13.2.html" />
         <option value="$PROJECT_DIR$/ct11/ct11.scss" />
         <option value="$PROJECT_DIR$/alltask/alltask.html" />
+        <option value="$PROJECT_DIR$/csstask13/csstask13--1.html" />
       </list>
     </option>
   </component>
@@ -426,7 +398,7 @@
       <option name="presentableId" value="Default" />
       <updated>1527558466535</updated>
       <workItem from="1528868575106" duration="82500000" />
-      <workItem from="1529161999028" duration="31025000" />
+      <workItem from="1529161999028" duration="31399000" />
     </task>
     <task id="LOCAL-00001" summary="c12">
       <created>1528868728177</created>
@@ -498,16 +470,24 @@
       <option name="project" value="LOCAL" />
       <updated>1529403132271</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="w">
+      <created>1529403309273</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1529403309273</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113525000" />
+    <option name="totallyTimeSpent" value="113899000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="13" width="1323" height="715" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25401685" sideWeight="0.48681897" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25401685" sideWeight="0.48681897" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -888,16 +868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csstask13/csstask13-3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="115" column="25" lean-forward="false" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csstask13/csstask13.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -927,31 +897,6 @@
         <state relative-caret-position="454">
           <caret line="62" column="15" lean-forward="false" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csstask13/csstask13--1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-896">
-          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding>
-            <element signature="e#398#404#0" expanded="true" />
-            <element signature="e#585#591#0" expanded="true" />
-            <element signature="e#772#778#0" expanded="true" />
-            <element signature="e#958#964#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csstask13/csstask13.2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="173" column="53" lean-forward="false" selection-start-line="173" selection-start-column="53" selection-end-line="173" selection-end-column="53" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -996,9 +941,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/alltask/alltask.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
+        <state relative-caret-position="479">
           <caret line="25" column="88" lean-forward="true" selection-start-line="25" selection-start-column="88" selection-end-line="25" selection-end-column="88" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csstask13/csstask13-3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="115" column="25" lean-forward="false" selection-start-line="115" selection-start-column="25" selection-end-line="115" selection-end-column="25" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csstask13/csstask13.2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-351">
+          <caret line="173" column="53" lean-forward="false" selection-start-line="173" selection-start-column="53" selection-end-line="173" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csstask13/csstask13--1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="48" column="27" lean-forward="false" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+          <folding>
+            <element signature="e#398#404#0" expanded="true" />
+            <element signature="e#585#591#0" expanded="true" />
+            <element signature="e#772#778#0" expanded="true" />
+            <element signature="e#958#964#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
