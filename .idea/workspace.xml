@@ -4,7 +4,8 @@
     <list default="true" id="b6b67204-8e01-4479-8545-31ab48714bd7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/csstask11" afterPath="$PROJECT_DIR$/csstask11" />
-      <change beforePath="$PROJECT_DIR$/csstask13/csstask13--1.html" afterPath="$PROJECT_DIR$/csstask13/csstask13--1.html" />
+      <change beforePath="$PROJECT_DIR$/csstask13/csstask13-2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/csstask13/csstask13.2.html" afterPath="" />
     </list>
     <ignored path="XZYTASK.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,7 +24,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="csstask13--1.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="csstask13--1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/csstask13/csstask13--1.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
@@ -38,16 +39,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="csstask13.2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/csstask13/csstask13.2.html">
+      <file leaf-file-name="csstask13-2.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/csstask13/csstask13-2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-351">
-              <caret line="173" column="53" lean-forward="false" selection-start-line="173" selection-start-column="53" selection-end-line="173" selection-end-column="53" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="112">
+              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,16 +113,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="22" column="51" lean-forward="false" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="csstask7-2.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/csstask7/csstask7-2.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4172">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="195" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -398,7 +385,7 @@
       <option name="presentableId" value="Default" />
       <updated>1527558466535</updated>
       <workItem from="1528868575106" duration="82500000" />
-      <workItem from="1529161999028" duration="31399000" />
+      <workItem from="1529161999028" duration="31600000" />
     </task>
     <task id="LOCAL-00001" summary="c12">
       <created>1528868728177</created>
@@ -477,11 +464,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529403309273</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="w">
+      <created>1529403686387</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1529403686387</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113899000" />
+    <option name="totallyTimeSpent" value="114100000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="13" width="1323" height="715" extended-state="0" />
@@ -797,14 +791,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csstask13/csstask13-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csstask13/csstask13.1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -959,13 +945,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/csstask13/csstask13.2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-351">
+        <state relative-caret-position="489">
           <caret line="173" column="53" lean-forward="false" selection-start-line="173" selection-start-column="53" selection-end-line="173" selection-end-column="53" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -979,6 +961,14 @@
             <element signature="e#772#778#0" expanded="true" />
             <element signature="e#958#964#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csstask13/csstask13-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
