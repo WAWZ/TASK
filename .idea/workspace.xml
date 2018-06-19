@@ -2,26 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6b67204-8e01-4479-8545-31ab48714bd7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/alltask/csstask7-2.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/alltask/csstask7-2.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/alltask/csstask7-3.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/alltask/csstask7-3.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/alltask/csstask7.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/alltask/csstask7.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/alltask/image/nav!.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/alltask/image/nav.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/alltask/image/navh.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/alltask/image/navl.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/alltask/image/navr.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/alltask/image/play.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/alltask/image/卧底胜利.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/alltask/image/圆角矩形11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/alltask/image/形状1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/alltask/image/椭圆2拷贝.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/alltask/image/矩形10拷贝.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/alltask/image/谢春花 - 理想三旬 (Live).mp3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/csstask13.1.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/csstask13.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/csstask13.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/110.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/111.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/22.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/222.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/33.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/333.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/3f108638-a9ca-4218-a528-a83d2e2200f0 (1).png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/3f108638-a9ca-4218-a528-a83d2e2200f0.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/44.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/cnav.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/laba.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/nav!.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/nav.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/navh.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/navl.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/navr.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/play.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/set.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/tanha.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/wenhao.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/卧底胜利.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/圆角矩形11.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/形状1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/椭圆2拷贝.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/矩形10拷贝.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/谢春花 - 理想三旬 (Live).mp3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/首页.psd" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/alltask/alltask.html" afterPath="$PROJECT_DIR$/alltask/alltask.html" />
       <change beforePath="$PROJECT_DIR$/csstask11" afterPath="$PROJECT_DIR$/csstask11" />
     </list>
     <ignored path="XZYTASK.iws" />
@@ -73,8 +85,8 @@
       <file leaf-file-name="alltask.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/alltask/alltask.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="33" column="94" lean-forward="true" selection-start-line="33" selection-start-column="94" selection-end-line="33" selection-end-column="94" />
+            <state relative-caret-position="59">
+              <caret line="25" column="88" lean-forward="true" selection-start-line="25" selection-start-column="88" selection-end-line="25" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -318,12 +330,6 @@
             <path>
               <item name="XZYTASK" type="b2602c69:ProjectViewProjectNode" />
               <item name="XZYTASK" type="462c0819:PsiDirectoryNode" />
-              <item name="csstask13" type="462c0819:PsiDirectoryNode" />
-              <item name="csstask13.scss" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="XZYTASK" type="b2602c69:ProjectViewProjectNode" />
-              <item name="XZYTASK" type="462c0819:PsiDirectoryNode" />
               <item name="ct11" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -420,7 +426,7 @@
       <option name="presentableId" value="Default" />
       <updated>1527558466535</updated>
       <workItem from="1528868575106" duration="82500000" />
-      <workItem from="1529161999028" duration="30843000" />
+      <workItem from="1529161999028" duration="31025000" />
     </task>
     <task id="LOCAL-00001" summary="c12">
       <created>1528868728177</created>
@@ -485,17 +491,23 @@
       <option name="project" value="LOCAL" />
       <updated>1529402792771</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="w">
+      <created>1529403132271</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1529403132271</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113343000" />
+    <option name="totallyTimeSpent" value="113525000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="13" width="1323" height="715" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25401685" sideWeight="0.48681897" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25401685" sideWeight="0.48681897" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -984,8 +996,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/alltask/alltask.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="33" column="94" lean-forward="true" selection-start-line="33" selection-start-column="94" selection-end-line="33" selection-end-column="94" />
+        <state relative-caret-position="59">
+          <caret line="25" column="88" lean-forward="true" selection-start-line="25" selection-start-column="88" selection-end-line="25" selection-end-column="88" />
           <folding />
         </state>
       </provider>
