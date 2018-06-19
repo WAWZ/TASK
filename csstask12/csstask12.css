@@ -193,7 +193,7 @@ input[type=checkbox] {
 ul {
   display: none; }
 
-input[type=checkbox]:checked ~ ul {
+.dropdown:hover > ul {
   display: block; }
 
 a {
