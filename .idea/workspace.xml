@@ -4,6 +4,7 @@
     <list default="true" id="b6b67204-8e01-4479-8545-31ab48714bd7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/csstask11" afterPath="$PROJECT_DIR$/csstask11" />
+      <change beforePath="$PROJECT_DIR$/csstask14/csstask14.2.html" afterPath="$PROJECT_DIR$/csstask14/csstask14.2.html" />
     </list>
     <ignored path="XZYTASK.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,9 +76,20 @@
       <file leaf-file-name="csstask14.2.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/csstask14/csstask14.2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="55" column="44" lean-forward="true" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
-              <folding />
+            <state relative-caret-position="89">
+              <caret line="164" column="64" lean-forward="true" selection-start-line="164" selection-start-column="64" selection-end-line="164" selection-end-column="64" />
+              <folding>
+                <element signature="e#6563#6569#0" expanded="true" />
+                <element signature="e#6569#6575#0" expanded="true" />
+                <element signature="e#6575#6581#0" expanded="true" />
+                <element signature="e#6581#6587#0" expanded="true" />
+                <element signature="e#6587#6593#0" expanded="true" />
+                <element signature="e#8100#8106#0" expanded="true" />
+                <element signature="e#8106#8112#0" expanded="true" />
+                <element signature="e#8112#8118#0" expanded="true" />
+                <element signature="e#8118#8124#0" expanded="true" />
+                <element signature="e#8124#8130#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -521,7 +533,7 @@
       <option name="presentableId" value="Default" />
       <updated>1527558466535</updated>
       <workItem from="1528868575106" duration="82500000" />
-      <workItem from="1529161999028" duration="130068000" />
+      <workItem from="1529161999028" duration="130265000" />
     </task>
     <task id="LOCAL-00001" summary="c12">
       <created>1528868728177</created>
@@ -649,11 +661,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529753492873</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="w">
+      <created>1529753501728</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1529753501728</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="212568000" />
+    <option name="totallyTimeSpent" value="212765000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1120,6 +1139,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/csstask14/csstask14.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1457">
+          <caret line="502" column="22" lean-forward="true" selection-start-line="502" selection-start-column="22" selection-end-line="502" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/csstask14/csstask14.1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4173">
+          <caret line="290" column="10" lean-forward="true" selection-start-line="290" selection-start-column="10" selection-end-line="290" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/csstask14/csstask14.3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -1295,27 +1330,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/csstask14/csstask14.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1457">
-          <caret line="502" column="22" lean-forward="true" selection-start-line="502" selection-start-column="22" selection-end-line="502" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/csstask14/csstask14.1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4173">
-          <caret line="290" column="10" lean-forward="true" selection-start-line="290" selection-start-column="10" selection-end-line="290" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csstask14/csstask14.2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="55" column="44" lean-forward="true" selection-start-line="55" selection-start-column="44" selection-end-line="55" selection-end-column="44" />
-          <folding />
+        <state relative-caret-position="89">
+          <caret line="164" column="64" lean-forward="true" selection-start-line="164" selection-start-column="64" selection-end-line="164" selection-end-column="64" />
+          <folding>
+            <element signature="e#6563#6569#0" expanded="true" />
+            <element signature="e#6569#6575#0" expanded="true" />
+            <element signature="e#6575#6581#0" expanded="true" />
+            <element signature="e#6581#6587#0" expanded="true" />
+            <element signature="e#6587#6593#0" expanded="true" />
+            <element signature="e#8100#8106#0" expanded="true" />
+            <element signature="e#8106#8112#0" expanded="true" />
+            <element signature="e#8112#8118#0" expanded="true" />
+            <element signature="e#8118#8124#0" expanded="true" />
+            <element signature="e#8124#8130#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
