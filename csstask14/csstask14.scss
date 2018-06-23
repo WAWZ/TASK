@@ -39,7 +39,7 @@ footer{
     float: left;
   }
 }
-@media (min-width: 1025px) and (max-width:2240px){
+@media (min-width: 1025px) and (max-width:3240px){
   .col-3{
     width: 25%;
     float: left;
@@ -56,7 +56,7 @@ footer{
     float: left;
   }
 }
-@media (min-width: 1025px) and (max-width:2240px){
+@media (min-width: 1025px) and (max-width:3240px){
   .col-3-1{
     width: 24%;
     margin-left: 0.8%;
@@ -384,7 +384,7 @@ li{ a{
     max-width: 100%;
   }
   /*-----------------------main-tilte---------*/
-  @media (min-width: 769px) and (max-width: 2000px){
+  @media (min-width: 769px) and (max-width: 3000px){
     .col-3-pg2{
       width: 28%;
       margin-left: 2%;
@@ -513,7 +513,7 @@ li{ a{
       /*float: left;*/
     }
   }
-  @media (min-width: 1241px) and (max-width: 2240px){
+  @media (min-width: 1241px) and (max-width: 3240px){
     .content-father{
       position: relative;
       display: inline-block;

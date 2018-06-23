@@ -114,13 +114,13 @@ ul li {
 @media (max-width: 768px) {
   .dropdown {
     display: block; } }
-@media (max-width: 2000px) and (min-width: 769px) {
+@media (max-width: 3000px) and (min-width: 769px) {
   .dropdown {
     display: none; } }
 @media (max-width: 768px) {
   .headernav {
     display: none; } }
-@media (max-width: 2000px) and (min-width: 769px) {
+@media (max-width: 3000px) and (min-width: 769px) {
   .headernav {
     display: block; } }
 .headernav {
