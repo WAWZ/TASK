@@ -2,35 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6b67204-8e01-4479-8545-31ab48714bd7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/csstask7-1.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/csstask7-2.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/csstask7-2.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/csstask7-3.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/csstask7-3.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/csstask7.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/csstask7.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/image/circled-help.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/image/cnav.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/image/nav!.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/image/nav.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/image/navh.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/image/navl.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/image/navr.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/image/play.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/image/rangeimg.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/image/卧底胜利.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/image/圆角矩形11.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/image/形状1.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/image/椭圆2拷贝.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/image/矩形10拷贝.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/image/谢春花 - 理想三旬 (Live).mp3" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/js2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/matching.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/alltask/alltask.html" afterPath="$PROJECT_DIR$/alltask/alltask.html" />
       <change beforePath="$PROJECT_DIR$/csstask11" afterPath="$PROJECT_DIR$/csstask11" />
-      <change beforePath="$PROJECT_DIR$/jsdemo/JGG.js" afterPath="$PROJECT_DIR$/jsdemo/JGG.js" />
       <change beforePath="$PROJECT_DIR$/jsdemo/JIU.html" afterPath="$PROJECT_DIR$/jsdemo/JIU.html" />
     </list>
     <ignored path="XZYTASK.iws" />
@@ -50,11 +24,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="csstask7.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="csstask7.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jstask2/csstask7.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="45" column="26" lean-forward="false" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+            <state relative-caret-position="364">
+              <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="js1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsdemo/js1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="815">
+              <caret line="34" column="50" lean-forward="true" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JGG.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsdemo/JGG.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="49" column="4" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="65" selection-end-column="9" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alltask.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alltask/alltask.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="32" column="91" lean-forward="true" selection-start-line="32" selection-start-column="91" selection-end-line="32" selection-end-column="91" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JIU.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jsdemo/JIU.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28">
+              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -205,10 +221,8 @@
         <option value="$PROJECT_DIR$/Demo/bfcDemo.html" />
         <option value="F:/JS/2018-5-12-A组-js4/如何实现深拷贝和浅拷贝.html" />
         <option value="$PROJECT_DIR$/jsdemo/js1.js" />
-        <option value="$PROJECT_DIR$/alltask/alltask.html" />
         <option value="F:/JS/2018-5-12-A组-js4/2018-6-25-webA组-css15.html" />
         <option value="$USER_HOME$/Documents/GitHub/WEB-NEW/2018-6-25-webA组-css15.html" />
-        <option value="$PROJECT_DIR$/jsdemo/JIU.html" />
         <option value="$PROJECT_DIR$/jsdemo/JGG.js" />
         <option value="$PROJECT_DIR$/jstask2/csstask7.html" />
         <option value="$PROJECT_DIR$/jstask2/csstask7-1.html" />
@@ -216,6 +230,8 @@
         <option value="$PROJECT_DIR$/jstask2/csstask7.css" />
         <option value="$PROJECT_DIR$/jstask2/matching.html" />
         <option value="$PROJECT_DIR$/jstask2/js2.js" />
+        <option value="$PROJECT_DIR$/alltask/alltask.html" />
+        <option value="$PROJECT_DIR$/jsdemo/JIU.html" />
       </list>
     </option>
   </component>
@@ -263,7 +279,7 @@
             <path>
               <item name="XZYTASK" type="b2602c69:ProjectViewProjectNode" />
               <item name="XZYTASK" type="462c0819:PsiDirectoryNode" />
-              <item name="csstask8" type="462c0819:PsiDirectoryNode" />
+              <item name="jsdemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="XZYTASK" type="b2602c69:ProjectViewProjectNode" />
@@ -367,7 +383,7 @@
       <option name="presentableId" value="Default" />
       <updated>1527558466535</updated>
       <workItem from="1528868575106" duration="82500000" />
-      <workItem from="1529161999028" duration="210109000" />
+      <workItem from="1529161999028" duration="211072000" />
     </task>
     <task id="LOCAL-00001" summary="c12">
       <created>1528868728177</created>
@@ -530,11 +546,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529907939102</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="w">
+      <created>1530017698592</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1530017698592</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="292609000" />
+    <option name="totallyTimeSpent" value="293572000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1060,14 +1083,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alltask/alltask.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="26" column="88" lean-forward="false" selection-start-line="26" selection-start-column="88" selection-end-line="26" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/JS/2018-6-25-A组-css15/2018-6-25-webA组-css15.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -1108,14 +1123,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsdemo/js1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="34" column="50" lean-forward="true" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csstask8/csstask8.1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -1141,24 +1148,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsdemo/JGG.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsdemo/JIU.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="19" column="35" lean-forward="true" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -1212,8 +1201,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jstask2/csstask7.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="45" column="26" lean-forward="false" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+        <state relative-caret-position="364">
+          <caret line="34" column="18" lean-forward="true" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsdemo/js1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="815">
+          <caret line="34" column="50" lean-forward="true" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltask/alltask.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="32" column="91" lean-forward="true" selection-start-line="32" selection-start-column="91" selection-end-line="32" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsdemo/JGG.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="49" column="4" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="65" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsdemo/JIU.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
           <folding />
         </state>
       </provider>
