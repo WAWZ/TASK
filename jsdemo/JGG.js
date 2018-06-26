@@ -11,27 +11,86 @@ function  color() {
   var b =Math.floor(Math.random()*256);
  return  "rgb("   + r +   ","  + g +   " ,"  + b+   ")";
 }
-function begin() {
-    for(var i =0;i < list.length;i++){
-        list[i].style.backgroundColor = "";
+// function begin() {
+//     for(var i =0;i < list.length;i++){
+//         list[i].style.backgroundColor = "";
+//     }
+//     var one = Math.floor(Math.random()*list.length);
+//     var two = Math.floor(Math.random()*list.length);
+//     var three = Math.floor(Math.random()*list.length);
+//     if( one!=two && two!=three && three!=one){
+//         list[one].style.backgroundColor = color();
+//         console.log(list[one]);
+//         list[two].style.backgroundColor = color();
+//         console.log(list[one]);
+//         list[three].style.backgroundColor = color();
+//         console.log(list[one]);
+//     }else{
+//          begin();
+//     }
+// }
+// function begin() {
+//     var arr = [];
+//     while (arr.length < 3) {
+//         var bFlag = true;
+//         var number = Math.floor(Math.random() * 9);
+//         if (arr.length == 0) {
+//             arr.push(number);
+//         }
+//         for (var i = 0; i < arr.length; i++) {
+//             if (number == arr[i]) {
+//                 bFlag = false;
+//             }
+//         }
+//         if (bFlag) {
+//             arr.push(number);
+//         }
+//     }
+// }
+    function start(){
+        var arr =[];
+        while (arr.length < 3){
+            var bFlag = true;
+            var number = Math.floor(Math.random()*9);
+            if(arr.length == 0){
+                arr.push(number);
+            }
+            for(var i = 0;i < arr.length ; i++){
+                if(number == arr[i]){
+                    bFlag  = false;
+                }
+            }
+            if (bFlag){
+                arr.push(number);
+            }
+        }
+        // console.log(arr);
+        // console.log(arr[0]);
+
+        // return arr;
+        list[arr[0]].style.backgroundColor = color();
+        // console.log(arr[0]);
+        list[arr[1]].style.backgroundColor = color();
+        list[arr[2]].style.backgroundColor = color();
+
     }
-    var one = Math.floor(Math.random()*list.length);
-    var two = Math.floor(Math.random()*list.length);
-    var three = Math.floor(Math.random()*list.length);
-    if( one!=two && two!=three && three!=one){
-        list[one].style.backgroundColor = color();
-        console.log(list[one]);
-        list[two].style.backgroundColor = color();
-        console.log(list[one]);
-        list[three].style.backgroundColor = color();
-        console.log(list[one]);
-    }else{
-         begin();
-    }
-}
+ // var s = start();
+        // list[arr[0]].style.backgroundColor = color();
+        // console.log(list[arr[0]]);
+        // list[arr[1]].style.backgroundColor = color();
+        // console.log(list[arr[1]]);
+        // list[arr[2]].style.backgroundColor = color();
+        // console.log(list[arr[2]]);
+
+    // return arr;
+// }
 startBotton.onclick=function displayStart (){
     clearInterval(time);
-    time = setInterval(function(){begin();},1000);
+    time = setInterval(function(){
+        for(var i =0;i < list.length;i++){
+            list[i].style.backgroundColor = "rgb("   + 255 +   ","  + 160+   " ,"  + 1+   ")";
+        };
+        start();},3000);
 }
 endBotton.onclick=function displayEnd() {
     clearInterval(time);
@@ -65,26 +124,7 @@ endBotton.onclick=function displayEnd() {
 
 
 
-// function randomNum() {
-//     var arr = [];
-//     while (arr.length < 3) {
-//         var bFlag = true;
-//         var number = Math.floor(Math.random() * 9);
-//         if (arr.length == 0) {
-//             arr.push(number);
-//         }
-//         for (var i = 0; i < arr.length; i++) {
-//             if (number == arr[i]) {
-//                 bFlag = false;
-//             }
-//         }
-//         if (bFlag) {
-//             arr.push(number);
-//         }
-//     }
-//     console.log(arr);
-//     return arr;
-// }
+
      //---------------------------------------------------------------------
      // var a= arr;
     // return arr;
