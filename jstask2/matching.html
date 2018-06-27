@@ -16,8 +16,35 @@
     <!--<div class="width-content cap">-->
         <!--玩家配比-->
     <!--</div>-->
-    <div class="width-content people">
+    <!--<div class="width-content ">-->
 
+    <!--</div>-->
+    <div class="width-content people">
+        <div class="leftnav">
+            <p>玩</p>
+            <p>家</p>
+            <p>人</p>
+            <p>数</p>
+        </div>
+        <div class="rightnav">
+            <div class="rightnav_num">
+                <div class="rightnav_left">
+                    <div>
+                        <span class="killer">玩家</span><span>&nbsp;</span><span>人</span>
+                    </div>
+                </div>
+                <div class="rightnav_right">
+                    <div>
+                        <span class="civilian">平民</span><span>&nbsp;</span><span>人</span>
+                    </div>
+                </div>
+            </div>
+            <div class="numsetting">
+                <div class="">玩家设置</div>
+                <img src="image/pencil.png" class="">
+            </div>
+
+        </div>
     </div>
     <div class="width-content setting">
 
@@ -25,12 +52,13 @@
     <div class="width-content number">
         <div class="rolesnum">
             <span>玩家人数&nbsp;</span>
-            <input type="text" value="" name="number" id="peopleNum" size="1">
-            <span>&nbsp;人</span>
+            <input type="number" value="6" name="number" id="input_text_Num"  min="4" max="18" size="1">
+            <span>&nbsp;人&nbsp;</span>
+            <span style="font-size: 10px;">玩家人数为4-18</span>
         </div>
         <div class="rolerange">
             <button class="roleless" id="rangeLess"><span></span></button>&nbsp;
-            <input type="range" name="points" min="4" max="18"  step="1" />&nbsp;
+            <input type="range" id="input_range_Num" name="points" min="4" defaultValue="2" max="18"  step="1" />&nbsp;
             <button class="rolemore" id="rangeMore"><span></span><span class="columnspan"></span></button>
         </div>
     </div>

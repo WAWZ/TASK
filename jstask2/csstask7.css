@@ -214,7 +214,46 @@ header a {
     top: 16.5px;
     left: 15px;
 }
+.leftnav{
+    /*float: left;*/
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #d9d9d9;
+    font-size: 18px;
+    line-height: 24px;
+}
 
+.rightnav{
+    background-color: #fbfbfb;
+    width: 80%;
+}
+.rightnav_num{
+    height: 28vh;
+    display: flex;
+    /*margin: 20px 30px;*/
+}
+.rightnav_left,.rightnav_right{
+    /*flex: 1;*/
+    width: 50%;
+    padding: 20px;
+    font-size: 15px;
+}
+.numsetting{
+    line-height: 6vh;
+    /*text-align: center;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    color: #29bde0;
+    border-top: 1px solid #d9d9d9;
+}
+.numsetting img{
+    margin-left: 10px;
+}
 .people {
     height: 34vh;
     margin: 5.3rem auto 0;
@@ -222,6 +261,7 @@ header a {
     -moz-box-shadow: 1px 1px 5px #e6e6e6;
     -webkit-box-shadow: 1px 1px 5px #e6e6e6;
     box-shadow: 1px 1px 5px #e6e6e6;
+    display: flex;
 }
 
 .setting {
@@ -268,7 +308,7 @@ header a {
     align-items: center;
     justify-content: left;
     padding: 3vh 20px;
-    font-size: 17px;
+    font-size: 15px;
 }
 
 .rolerange {
@@ -296,7 +336,8 @@ header a {
     width: 17px;
     height: 17px;
     border: 1px solid #d9d9d9;
-    outline: none;
+    outline: none;.
+
 }
 
 .rolesnum input {
