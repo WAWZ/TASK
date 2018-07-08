@@ -78,14 +78,15 @@ $(document).ready(function() {
       },
       onSpeak: function() {
         console.log("AFTER2: ");
+        alert('确定发言');
         $("#speak").css("background-color","lightpink");
         $(".trangle2").css("border-color","transparent lightpink transparent transparent");
       },
       onTalk: function() {
         console.log("AFTER3: ");
+        alert('确定讨论');
         $("#talk").css("background-color","lightpink");
         $(".trangle3").css("border-color","transparent lightpink transparent transparent");
-
       },
       onAfterVote: function() {
         console.log("AFTER4: ");

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6b67204-8e01-4479-8545-31ab48714bd7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/csstask13/image/result.png" />
+    <list default="true" id="b6b67204-8e01-4479-8545-31ab48714bd7" name="Default" comment="task2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/csstask11" afterPath="$PROJECT_DIR$/csstask11" />
+      <change beforePath="$PROJECT_DIR$/jstask2/process.js" afterPath="$PROJECT_DIR$/jstask2/process.js" />
     </list>
     <ignored path="XZYTASK.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,7 +75,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alltask.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="alltask.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alltask/alltask.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="281">
@@ -85,14 +85,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="process.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="process.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jstask2/process.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1064">
-              <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
+            <state relative-caret-position="336">
+              <caret line="88" column="91" lean-forward="false" selection-start-line="88" selection-start-column="91" selection-end-line="88" selection-end-column="91" />
               <folding>
-                <element signature="e#5252#6099#0" expanded="false" />
-                <element signature="e#6142#6184#0" expanded="false" />
+                <element signature="e#5297#6144#0" expanded="false" />
+                <element signature="e#6187#6229#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -247,9 +247,9 @@
         <option value="$PROJECT_DIR$/jstask2/log-3.js" />
         <option value="$PROJECT_DIR$/jstask2/log-4.js" />
         <option value="$PROJECT_DIR$/jstask2/result.js" />
-        <option value="$PROJECT_DIR$/jstask2/process.js" />
         <option value="$PROJECT_DIR$/jstask2/js2.js" />
         <option value="$PROJECT_DIR$/jstask2/zzz.js" />
+        <option value="$PROJECT_DIR$/jstask2/process.js" />
       </list>
     </option>
   </component>
@@ -416,7 +416,7 @@
       <workItem from="1528868575106" duration="82500000" />
       <workItem from="1529161999028" duration="258809000" />
       <workItem from="1530282999723" duration="187628000" />
-      <workItem from="1531037243684" duration="205000" />
+      <workItem from="1531037243684" duration="459000" />
     </task>
     <task id="LOCAL-00001" summary="c12">
       <created>1528868728177</created>
@@ -635,11 +635,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531036862005</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="task2">
+      <created>1531037469910</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1531037469910</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="529142000" />
+    <option name="totallyTimeSpent" value="529396000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -652,9 +659,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2735426" sideWeight="0.48681897" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2735426" sideWeight="0.48681897" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1022,17 +1031,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jstask2/process.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1064">
-          <caret line="38" column="37" lean-forward="true" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-          <folding>
-            <element signature="e#5252#6099#0" expanded="false" />
-            <element signature="e#6142#6184#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jstask2/123.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -1081,6 +1079,17 @@
         <state relative-caret-position="281">
           <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jstask2/process.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="88" column="91" lean-forward="false" selection-start-line="88" selection-start-column="91" selection-end-line="88" selection-end-column="91" />
+          <folding>
+            <element signature="e#5297#6144#0" expanded="false" />
+            <element signature="e#6187#6229#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
