@@ -1,49 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6b67204-8e01-4479-8545-31ab48714bd7" name="Default" comment="task2">
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/123.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/JS2-3.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/LOG.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/LOG.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/fsm1.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/fsm1.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/hinum.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/image/day.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/image/night.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/image/result.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/image/图层2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/image/组2.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/jquery-3.3.1.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/jquery-3.3.1.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/killer.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/log-1.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/log-1.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/log-2.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/log-2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/log-3.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/log-4.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/log-vote.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/log.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/log.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/log.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/process.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/process.css.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/process.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/process.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/process.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/result.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/state-machine.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/zzz.js" />
+    <list default="true" id="b6b67204-8e01-4479-8545-31ab48714bd7" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/csstask11" afterPath="$PROJECT_DIR$/csstask11" />
-      <change beforePath="$PROJECT_DIR$/csstask13/csstask13.css" afterPath="$PROJECT_DIR$/csstask13/csstask13.css" />
-      <change beforePath="$PROJECT_DIR$/csstask13/csstask13.css.map" afterPath="$PROJECT_DIR$/csstask13/csstask13.css.map" />
-      <change beforePath="$PROJECT_DIR$/csstask13/csstask13.scss" afterPath="$PROJECT_DIR$/csstask13/csstask13.scss" />
-      <change beforePath="$PROJECT_DIR$/jstask2/csstask7-3.html" afterPath="$PROJECT_DIR$/jstask2/csstask7-3.html" />
-      <change beforePath="$PROJECT_DIR$/jstask2/csstask7.css" afterPath="$PROJECT_DIR$/jstask2/csstask7.css" />
-      <change beforePath="$PROJECT_DIR$/jstask2/js2.js" afterPath="$PROJECT_DIR$/jstask2/js2.js" />
-      <change beforePath="$PROJECT_DIR$/jstask2/matching.html" afterPath="$PROJECT_DIR$/jstask2/matching.html" />
     </list>
     <ignored path="XZYTASK.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -449,7 +409,7 @@
       <updated>1527558466535</updated>
       <workItem from="1528868575106" duration="82500000" />
       <workItem from="1529161999028" duration="258809000" />
-      <workItem from="1530282999723" duration="187508000" />
+      <workItem from="1530282999723" duration="187535000" />
     </task>
     <task id="LOCAL-00001" summary="c12">
       <created>1528868728177</created>
@@ -647,11 +607,18 @@
       <option name="project" value="LOCAL" />
       <updated>1530105034314</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="task2">
+      <created>1531036794801</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1531036794801</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="528817000" />
+    <option name="totallyTimeSpent" value="528844000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
