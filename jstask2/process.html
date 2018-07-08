@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="log.css">
+    <link rel="stylesheet" href="process.css">
+    <title>process</title>
+</head>
+<body>
+    <header class="matchheader">
+        <a href="csstask7.html"></a>
+        <span>法官台本</span>
+        <div class="helpimg"></div>
+    </header>
+    <main>
+        <p id="dayNum" class="day">第<span id="day">一</span>天</p>
+        <div class="time-line ">
+            <div class="content show">
+                <div class="line">
+                    <p id="kill"><span class="nightimg"></span><span class="trangle1"></span><span>玩家杀人</span></p>
+                </div>
+                <p class="nightresult hidden-p"><span id="nightID"></span>号被杀手杀死，真实身份是平民</p>
+                <div class="line">
+                    <p id="speak"><span class="dayimg"></span><span class="trangle2"></span><span>亡灵发表遗言</span></p>
+                </div>
+                <div class="line">
+                    <p id="talk"><span class="trangle3"></span><span>玩家依次发言</span></p>
+                </div>
+                <div class="line">
+                    <p id="vote"><span class="trangle4"></span><span>全民投票</span></p>
+                </div>
+                    <p class="voteresult hidden-p"><span id="dayId"></span>号被投死了，真实身份是<span id="dayRole"></span>  </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!--<div class="bottom">-->
+            <button type="button" class="btn" id="end">结束游戏</button>
+            <button type="button" class="btn" id="log">法官日志</button>
+        <!--</div>-->
+    </footer>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <!--<script src="https://github.com/jakesgordon/javascript-state-machine/blob/master/dist/state-machine.js"></script>-->
+    <script src="state-machine.js"></script>
+    <script src="process.js"></script>
+</body>
+</html>

@@ -510,12 +510,32 @@ a:hover {
   padding-bottom:  1rem;
   margin-top: 4rem;
 }
-.pg3result{
+.pg3result {
   width: 10.65rem;
   height: 6rem;
   background: url(image/卧底胜利.png);
   margin: 0rem auto;
   background-size: 100% 100%;
+}
+.pg3resultnew{
+  position: relative;
+  width: 10.65rem;
+  height: 6rem;
+  background: url(image/result.png);
+  margin: 0rem auto;
+  background-size: 100% 100%;
+  .winner{
+    position: absolute;
+    top: 3.8rem;
+    left: 2rem;
+    font-size: 1.5rem;
+    //border: 1px solid black;
+    width: 6.65rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    color:lightcyan;
+  }
 }
 .result-congratulation{
   font-size: 1.6rem;
@@ -530,6 +550,11 @@ a:hover {
   width: 80vw;
   font-size: 13px;
   color: #ffffff;
+  .lastnum{
+    line-height: 2.2rem;
+    font-size: 1.3rem;
+
+  }
 }
 .day{
   /*background: #ffffff;*/
@@ -539,6 +564,8 @@ a:hover {
 .day1{
   width: 80vw;
   margin: 0 auto;
+  //border-bottom: 1px solid #dddddd;
+
 }
 .date{
   line-height: 2.4rem;

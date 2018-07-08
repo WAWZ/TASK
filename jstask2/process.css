@@ -1,0 +1,109 @@
+html, body {
+  background-color: #f0f0f0;
+  font-size: 62.5%; }
+
+.helpimg {
+  background: url("image/navr.png") no-repeat;
+  top: 3px; }
+
+main {
+  margin-top: 4rem;
+  margin-bottom: 10vh;
+  background-color: #f0f0f0; }
+  main .day {
+    width: 98%;
+    margin: 5px auto;
+    border: 1px solid #c9c9c9;
+    background-color: #f7f7f7;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-weight: bold;
+    color: #5dcce6;
+    text-align: center; }
+  main .time-line {
+    width: 98%;
+    margin: 5px auto;
+    border: 1px solid #c9c9c9;
+    background-color: #f7f7f7; }
+    main .time-line .content {
+      display: none;
+      border-left: 1px solid #9a9a9a;
+      width: 80%;
+      margin: 2rem auto; }
+      main .time-line .content .line, main .time-line .content .linenew {
+        position: relative;
+        width: 80%;
+        line-height: 2rem;
+        text-align: center;
+        margin: 1rem auto;
+        background-color: #29bde0; }
+        main .time-line .content .line .nightimg, main .time-line .content .line .dayimg, main .time-line .content .linenew .nightimg, main .time-line .content .linenew .dayimg {
+          display: inline-block;
+          width: 1.5rem;
+          height: 1.5rem;
+          border-radius: 50%;
+          border: 1px solid #e1e5e7;
+          background: url("image/night.png") no-repeat 3px #fff;
+          background-size: 70% 80%;
+          position: absolute;
+          top: 2px;
+          left: calc(-12.5% - .75rem); }
+        main .time-line .content .line .dayimg, main .time-line .content .linenew .dayimg {
+          background: url("image/day.png") no-repeat 3px #fff;
+          background-size: 70% 70%; }
+      main .time-line .content .linenew {
+        background-color: lightpink; }
+    main .time-line .show {
+      display: block; }
+
+.linenew {
+  background-color: lightpink; }
+
+.nightresult, .voteresult {
+  text-align: center; }
+
+.hidden-p {
+  display: none; }
+
+.trangle1, .trangle2, .trangle3, .trangle4 {
+  position: absolute;
+  top: calc(50% - .5rem);
+  left: -1.5rem;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-width: 0.5rem 1.5rem 0.5rem 0rem;
+  border-style: solid;
+  border-color: transparent #29bde0 transparent transparent; }
+
+.trangle5 {
+  position: absolute;
+  top: calc(50% - .5rem);
+  left: -1.5rem;
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-width: 0.5rem 1.5rem 0.5rem 0rem;
+  border-style: solid;
+  border-color: transparent lightpink transparent transparent; }
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #29bde0;
+  opacity: .6;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  footer button {
+    line-height: 6vh;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    background-color: #fbdc48;
+    margin: 2vh;
+    flex: 1; }
+
+/*# sourceMappingURL=process.css.map */

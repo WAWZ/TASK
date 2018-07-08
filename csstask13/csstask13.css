@@ -502,6 +502,24 @@ a:hover {
   margin: 0rem auto;
   background-size: 100% 100%; }
 
+.pg3resultnew {
+  position: relative;
+  width: 10.65rem;
+  height: 6rem;
+  background: url(image/result.png);
+  margin: 0rem auto;
+  background-size: 100% 100%; }
+  .pg3resultnew .winner {
+    position: absolute;
+    top: 3.8rem;
+    left: 2rem;
+    font-size: 1.5rem;
+    width: 6.65rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    color: lightcyan; }
+
 .result-congratulation {
   font-size: 1.6rem;
   font-weight: bold;
@@ -515,6 +533,9 @@ a:hover {
   width: 80vw;
   font-size: 13px;
   color: #ffffff; }
+  .result-detail .lastnum {
+    line-height: 2.2rem;
+    font-size: 1.3rem; }
 
 .day {
   /*background: #ffffff;*/

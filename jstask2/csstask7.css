@@ -3,7 +3,7 @@ html, body {
     background-color: #f0f0f0;
 }
 
-html, body, p, div, h3, span, img, button {
+html, body, p, div, h3, span, img, button,h4,h5,h6,h1,h2 {
     margin: 0;
     padding: 0;
 }
@@ -201,7 +201,19 @@ header {
     transform: scale(0.6, 0.6);
     /*background-size:80% 80% ;*/
 }
-
+.wrong{
+    display: block;
+    width: 36px;
+    height: 36px;
+    /*float: right;*/
+    position: absolute;
+    right: 15px;
+    top: 6px;
+    background: url("image/navr.png") no-repeat;
+    transform: scale(0.6, 0.6);
+    /*top: 16.5px;*/
+    /*left: 15px;*/
+}
 header a {
     text-decoration: none;
     display: inline-block;
@@ -349,15 +361,14 @@ header a {
     color: #ffa600;
 }
 
-.rolerange input[type="range"] {
+#input_range_Num{
     /*margin-top: 8px;*/
     outline: none;
     -webkit-appearance: none; /*清除系统默认样式*/
     width: 68% !important;
-    background: -webkit-linear-gradient(#fcc671, #fcc671) no-repeat, #ffe6be;
-    background-size: 50% 100%; /*设置左右宽度比例*/
+    background: -webkit-linear-gradient(#fab344, #fab344) ,no-repeat, #ffe6be;
+    /*background-size: ; !*设置左右宽度比例*!*/
     height: 3px;
-    /*color: #ffa600;*/
 }
 
 input[type=range]::-webkit-slider-thumb {
@@ -371,9 +382,87 @@ input[type=range]::-webkit-slider-thumb {
     border-radius: 5px; /*外观设置为圆形*/
     border: solid 2px #fab344; /*设置边框*/
 }
-
+.center-text{
+    text-align: center;
+}
 /*input[type=range]::-webkit-slider-thumb:after{*/
 /*height: 10px;*/
 /*width: 20px;*/
 /*background-color: #000;*/
 
+/*//-------------------------------------------------------------------------------------role1*/
+.all{
+    /*height: 100vh;*/
+    background-color: #29bde0;
+    /*clear: both;*/
+    padding-top: 7rem;
+    padding-bottom: 24vh;
+}
+  .role1{
+      width: 80%;
+      height: 60vh;
+      margin: 0rem auto 10vh;
+      border: 2px solid #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #ffedc5;
+      font-size: 2.6rem;
+  }
+  .role1 h4{
+      display: inline-block;
+      width: 3.4rem;
+      height: 3.4rem;
+      line-height: 3.4rem;
+      border-radius:3rem ;
+      text-align: center;
+      background-color: #fff;
+      border: 3px solid #ffe6c5;
+      position: absolute;
+      top: 5rem;
+  }
+  .image2{
+      width: 140px;
+      height: 140px;
+      margin-top: -5rem;
+      display: none;
+  }
+  .image1{
+      width: 200px;
+      margin-top: 4rem;
+      /*display: none;*/
+  }
+
+  .role1 p{
+      margin-bottom: 2vh;
+  }
+  .role-b{
+      /*width: inherit;*/
+      padding: 2rem;
+      font-size: 1.8rem;
+      line-height: 2rem;
+      /*border-top: 1px solid #fff;*/
+  }
+  .btn{
+
+  }
+  main button{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 84%;
+      height: 4rem;
+      border: none;
+      font-size: 2.3rem;
+      line-height: 4rem;
+      margin: 0 auto;
+      background-color: #fbb435;
+  }
+  .important{
+      letter-spacing: 2px;
+  }
+  #changeTwo{
+      display: none;
+      margin: 0 auto;
+  }
