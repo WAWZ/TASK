@@ -4,6 +4,10 @@ $(document).ready(function() {
   var newarr = JSON.parse(get);
   var time = 'allday' ;
   sessionStorage.setItem('time',time);
+  var status = '1';
+  sessionStorage.setItem('status',status);
+
+
   // var newarr =  JSON.parse(localStorage.getItem('role'));
   console.log(newarr.length);
   //模拟状态机思想，状态循环

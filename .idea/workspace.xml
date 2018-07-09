@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6b67204-8e01-4479-8545-31ab48714bd7" name="Default" comment="task2">
+    <list default="true" id="b6b67204-8e01-4479-8545-31ab48714bd7" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/jstask2/log-5.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/csstask11" afterPath="$PROJECT_DIR$/csstask11" />
+      <change beforePath="$PROJECT_DIR$/jstask2/JS2-3.js" afterPath="$PROJECT_DIR$/jstask2/JS2-3.js" />
+      <change beforePath="$PROJECT_DIR$/jstask2/LOG.html" afterPath="$PROJECT_DIR$/jstask2/LOG.html" />
+      <change beforePath="$PROJECT_DIR$/jstask2/csstask7.html" afterPath="$PROJECT_DIR$/jstask2/csstask7.html" />
+      <change beforePath="$PROJECT_DIR$/jstask2/killer.html" afterPath="$PROJECT_DIR$/jstask2/killer.html" />
+      <change beforePath="$PROJECT_DIR$/jstask2/log-1.html" afterPath="$PROJECT_DIR$/jstask2/log-1.html" />
+      <change beforePath="$PROJECT_DIR$/jstask2/log-2.html" afterPath="$PROJECT_DIR$/jstask2/log-2.html" />
+      <change beforePath="$PROJECT_DIR$/jstask2/log-3.js" afterPath="$PROJECT_DIR$/jstask2/log-3.js" />
+      <change beforePath="$PROJECT_DIR$/jstask2/log-4.js" afterPath="$PROJECT_DIR$/jstask2/log-4.js" />
+      <change beforePath="$PROJECT_DIR$/jstask2/log-vote.html" afterPath="$PROJECT_DIR$/jstask2/log-vote.html" />
+      <change beforePath="$PROJECT_DIR$/jstask2/matching.html" afterPath="$PROJECT_DIR$/jstask2/matching.html" />
+      <change beforePath="$PROJECT_DIR$/jstask2/process.css" afterPath="$PROJECT_DIR$/jstask2/process.css" />
+      <change beforePath="$PROJECT_DIR$/jstask2/process.css.map" afterPath="$PROJECT_DIR$/jstask2/process.css.map" />
+      <change beforePath="$PROJECT_DIR$/jstask2/process.html" afterPath="$PROJECT_DIR$/jstask2/process.html" />
       <change beforePath="$PROJECT_DIR$/jstask2/process.js" afterPath="$PROJECT_DIR$/jstask2/process.js" />
+      <change beforePath="$PROJECT_DIR$/jstask2/process.scss" afterPath="$PROJECT_DIR$/jstask2/process.scss" />
     </list>
     <ignored path="XZYTASK.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,48 +40,98 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="log-2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jstask2/log-2.js">
+      <file leaf-file-name="csstask7.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jstask2/csstask7.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-              <folding />
+            <state relative-caret-position="-364">
+              <caret line="26" column="73" lean-forward="true" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log-3.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jstask2/log-3.js">
+      <file leaf-file-name="process.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jstask2/process.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1820">
-              <caret line="65" column="13" lean-forward="false" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="419">
+              <caret line="39" column="78" lean-forward="false" selection-start-line="39" selection-start-column="78" selection-end-line="39" selection-end-column="78" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log-4.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jstask2/log-4.js">
+      <file leaf-file-name="log-1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jstask2/log-1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1876">
-              <caret line="67" column="7" lean-forward="false" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="280">
+              <caret line="19" column="78" lean-forward="false" selection-start-line="19" selection-start-column="78" selection-end-line="19" selection-end-column="78" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JS2-3.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jstask2/JS2-3.js">
+      <file leaf-file-name="LOG.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jstask2/LOG.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-              <folding />
+            <state relative-caret-position="364">
+              <caret line="67" column="77" lean-forward="false" selection-start-line="67" selection-start-column="77" selection-end-line="67" selection-end-column="77" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zzz.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jstask2/zzz.js">
+      <file leaf-file-name="matching.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jstask2/matching.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="process.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jstask2/process.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1877">
+              <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+              <folding>
+                <element signature="e#5303#6150#0" expanded="false" />
+                <element signature="e#6193#6235#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="killer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jstask2/killer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="25" column="59" lean-forward="true" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hinum.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jstask2/hinum.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -75,58 +140,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alltask.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alltask/alltask.html">
+      <file leaf-file-name="log-3.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jstask2/log-3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+            <state relative-caret-position="252">
+              <caret line="57" column="32" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="57" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="process.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jstask2/process.js">
+      <file leaf-file-name="log-5.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jstask2/log-5.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="88" column="91" lean-forward="false" selection-start-line="88" selection-start-column="91" selection-end-line="88" selection-end-column="91" />
-              <folding>
-                <element signature="e#5297#6144#0" expanded="false" />
-                <element signature="e#6187#6229#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="123.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jstask2/123.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            <state relative-caret-position="1176">
+              <caret line="42" column="32" lean-forward="false" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="result.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jstask2/result.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="js2.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jstask2/js2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3612">
-              <caret line="140" column="1" lean-forward="true" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
-              <folding>
-                <element signature="e#883#938#0" expanded="false" />
-                <element signature="e#981#1127#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -171,10 +200,10 @@
       <find>kill</find>
       <find>voterole</find>
       <find>daysDynamic</find>
-      <find>line</find>
       <find>nightAdd</find>
       <find>trangle</find>
       <find>yellow</find>
+      <find>line</find>
     </findStrings>
     <replaceStrings>
       <replace>bordercolor</replace>
@@ -199,9 +228,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jsdemo/JIU.html" />
-        <option value="$PROJECT_DIR$/jstask2/matching.html" />
-        <option value="$PROJECT_DIR$/jstask2/hinum.html" />
         <option value="$PROJECT_DIR$/Demo/MDN-1-1.html" />
         <option value="$PROJECT_DIR$/Demo/MDN-1-1.js" />
         <option value="$PROJECT_DIR$/Demo/weatherMDN.html" />
@@ -216,13 +242,11 @@
         <option value="$PROJECT_DIR$/Demo/style.css" />
         <option value="$PROJECT_DIR$/jstask2/123.js" />
         <option value="$PROJECT_DIR$/jstask2/csstask7.css" />
-        <option value="$PROJECT_DIR$/jstask2/killer.html" />
         <option value="$USER_HOME$/Documents/GitHub/javascript-state-machine/examples/demo/demo.css" />
         <option value="$USER_HOME$/Documents/GitHub/javascript-state-machine/index.html" />
         <option value="$USER_HOME$/Documents/GitHub/javascript-state-machine/examples/demo/demo.js" />
         <option value="$PROJECT_DIR$/jstask2/fsm1.html" />
         <option value="$PROJECT_DIR$/jstask2/fsm1.js" />
-        <option value="$PROJECT_DIR$/jstask2/log-1.html" />
         <option value="$USER_HOME$/Documents/GitHub/WEB-NEW/2018-07-02-WEB-A组-CSS15.html" />
         <option value="$USER_HOME$/Documents/GitHub/WEB-NEW/0-index-WEB.html" />
         <option value="$PROJECT_DIR$/jstask2/JS2-3-2.js" />
@@ -230,26 +254,31 @@
         <option value="$PROJECT_DIR$/jstask2/log.scss" />
         <option value="$PROJECT_DIR$/jstask2/process.css" />
         <option value="$USER_HOME$/Documents/GitHub/WEB-NEW/2018-07-05-WEB-A组-CSS15.html" />
-        <option value="$PROJECT_DIR$/jstask2/log-2.html" />
-        <option value="$PROJECT_DIR$/jstask2/log-vote.html" />
-        <option value="$PROJECT_DIR$/jstask2/LOG.html" />
         <option value="$PROJECT_DIR$/jstask2/csstask7-3.html" />
         <option value="$PROJECT_DIR$/csstask13/result.js" />
-        <option value="$PROJECT_DIR$/jstask2/process.html" />
-        <option value="$PROJECT_DIR$/jstask2/process.scss" />
         <option value="$PROJECT_DIR$/csstask13/csstask13.css" />
         <option value="$PROJECT_DIR$/csstask13/result.html" />
         <option value="$PROJECT_DIR$/csstask13/csstask13.scss" />
-        <option value="$PROJECT_DIR$/jstask2/JS2-3.js" />
         <option value="$PROJECT_DIR$/jstask2/LOG.js" />
         <option value="$PROJECT_DIR$/jstask2/log-1.js" />
         <option value="$PROJECT_DIR$/jstask2/log-2.js" />
-        <option value="$PROJECT_DIR$/jstask2/log-3.js" />
-        <option value="$PROJECT_DIR$/jstask2/log-4.js" />
         <option value="$PROJECT_DIR$/jstask2/result.js" />
         <option value="$PROJECT_DIR$/jstask2/js2.js" />
         <option value="$PROJECT_DIR$/jstask2/zzz.js" />
+        <option value="$PROJECT_DIR$/jstask2/log-4.js" />
+        <option value="$PROJECT_DIR$/jstask2/JS2-3.js" />
+        <option value="$PROJECT_DIR$/jstask2/killer.html" />
+        <option value="$PROJECT_DIR$/jstask2/log-2.html" />
+        <option value="$PROJECT_DIR$/jstask2/process.scss" />
+        <option value="$PROJECT_DIR$/jstask2/LOG.html" />
+        <option value="$PROJECT_DIR$/jstask2/log-vote.html" />
+        <option value="$PROJECT_DIR$/jstask2/log-1.html" />
+        <option value="$PROJECT_DIR$/jstask2/csstask7.html" />
+        <option value="$PROJECT_DIR$/jstask2/process.html" />
+        <option value="$PROJECT_DIR$/jstask2/matching.html" />
+        <option value="$PROJECT_DIR$/jstask2/log-3.js" />
         <option value="$PROJECT_DIR$/jstask2/process.js" />
+        <option value="$PROJECT_DIR$/jstask2/log-5.js" />
       </list>
     </option>
   </component>
@@ -416,7 +445,7 @@
       <workItem from="1528868575106" duration="82500000" />
       <workItem from="1529161999028" duration="258809000" />
       <workItem from="1530282999723" duration="187628000" />
-      <workItem from="1531037243684" duration="459000" />
+      <workItem from="1531037243684" duration="14210000" />
     </task>
     <task id="LOCAL-00001" summary="c12">
       <created>1528868728177</created>
@@ -642,11 +671,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531037469910</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="task2">
+      <created>1531037711845</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1531037711845</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="529396000" />
+    <option name="totallyTimeSpent" value="543147000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -661,7 +697,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2735426" sideWeight="0.48681897" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21300448" sideWeight="0.48681897" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879046" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -726,32 +762,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Demo/MDN-1-1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="68" lean-forward="true" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/MDN-1-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Demo/gallery-start/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="44" lean-forward="true" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Demo/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
@@ -781,24 +796,10 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Documents/GitHub/WEB-NEW/2018-07-02-WEB-A组-CSS15.html" />
-    <entry file="file://$PROJECT_DIR$/jstask2/matching.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Documents/GitHub/WEB-NEW/0-index-WEB.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="42" column="30" lean-forward="false" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jstask2/killer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -851,20 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jstask2/log-2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="57" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jstask2/log-1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jstask2/process.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
@@ -872,17 +859,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jstask2/log-vote.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-140">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jsdemo/JGG.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2352">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -914,13 +897,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jstask2/LOG.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="74" column="16" lean-forward="false" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csstask13/csstask13-3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -943,20 +919,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jstask2/csstask7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jstask2/process.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1652">
-          <caret line="71" column="10" lean-forward="false" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csstask13/csstask13.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12462">
@@ -964,17 +926,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jstask2/process.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="30" column="53" lean-forward="false" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/csstask13/result.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -982,6 +938,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="532" column="19" lean-forward="true" selection-start-line="532" selection-start-column="19" selection-end-line="532" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -989,6 +946,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1015,22 +975,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jstask2/log-3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1820">
-          <caret line="65" column="13" lean-forward="false" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jstask2/log-4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1876">
-          <caret line="67" column="7" lean-forward="false" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jstask2/123.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -1044,25 +988,6 @@
         <state relative-caret-position="532">
           <caret line="19" column="11" lean-forward="false" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jstask2/JS2-3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jstask2/js2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3612">
-          <caret line="140" column="1" lean-forward="true" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
-          <folding>
-            <element signature="e#883#938#0" expanded="false" />
-            <element signature="e#981#1127#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1082,14 +1007,166 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://F:/JS/代码-练习/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jstask2/log-4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="76" column="2" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="76" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jstask2/JS2-3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-812">
+          <caret line="7" column="2" lean-forward="false" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jstask2/js2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="140" column="1" lean-forward="true" selection-start-line="140" selection-start-column="1" selection-end-line="140" selection-end-column="1" />
+          <folding>
+            <element signature="e#883#938#0" expanded="false" />
+            <element signature="e#981#1127#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jstask2/process.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="50" column="24" lean-forward="false" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jstask2/log-vote.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1735">
+          <caret line="67" column="77" lean-forward="false" selection-start-line="67" selection-start-column="77" selection-end-line="67" selection-end-column="77" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jstask2/log-2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="67" column="77" lean-forward="false" selection-start-line="67" selection-start-column="77" selection-end-line="67" selection-end-column="77" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jstask2/log-1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="19" column="78" lean-forward="false" selection-start-line="19" selection-start-column="78" selection-end-line="19" selection-end-column="78" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jstask2/LOG.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="67" column="77" lean-forward="false" selection-start-line="67" selection-start-column="77" selection-end-line="67" selection-end-column="77" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jstask2/killer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="59" lean-forward="true" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jstask2/hinum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jstask2/csstask7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-364">
+          <caret line="26" column="73" lean-forward="true" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jstask2/process.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="39" column="78" lean-forward="false" selection-start-line="39" selection-start-column="78" selection-end-line="39" selection-end-column="78" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jstask2/matching.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="37" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jstask2/process.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="88" column="91" lean-forward="false" selection-start-line="88" selection-start-column="91" selection-end-line="88" selection-end-column="91" />
+        <state relative-caret-position="-1877">
+          <caret line="43" column="16" lean-forward="true" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
           <folding>
-            <element signature="e#5297#6144#0" expanded="false" />
-            <element signature="e#6187#6229#0" expanded="false" />
+            <element signature="e#5303#6150#0" expanded="false" />
+            <element signature="e#6193#6235#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jstask2/log-3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="57" column="32" lean-forward="true" selection-start-line="55" selection-start-column="7" selection-end-line="57" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jstask2/log-5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="42" column="32" lean-forward="false" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>

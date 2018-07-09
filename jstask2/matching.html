@@ -9,8 +9,8 @@
 <body>
     <header class="matchheader">
         <a href="csstask7-1.html"></a>
-        <span>参数设置</span>
-        <div class="helpimg"></div>
+        <span style="cursor: pointer;">参数设置</span>
+        <div class="helpimg" style="cursor: pointer;"></div>
         <!--<img src="image/circled-help.png" alt="">-->
     </header>
     <!--<div class="width-content cap">-->
@@ -55,13 +55,13 @@
             <span>&nbsp;人&nbsp;</span>
             <span style="font-size: 10px;">玩家人数为4-18</span>
         </div>
-        <div class="rolerange">
+        <div class="rolerange" style="cursor: pointer;">
             <button class="roleless" id="rangeLess"><span></span></button>&nbsp;
             <input type="range" id="input_range_Num" value="4" name="points" min="4" max="18"  step="1" />&nbsp;
             <button class="rolemore" id="rangeMore"><span></span><span class="columnspan"></span></button>
         </div>
     </div>
-    <button class="width-content matchbutton" onclick="sb()">
+    <button class="width-content matchbutton" onclick="sb()" style="cursor: pointer;">
         去发牌
     </button>
 <script src="js2.js"></script>

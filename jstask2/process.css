@@ -31,6 +31,7 @@ main {
       width: 80%;
       margin: 2rem auto; }
       main .time-line .content .line, main .time-line .content .linenew {
+        cursor: pointer;
         position: relative;
         width: 80%;
         line-height: 2rem;

@@ -40,14 +40,14 @@ $(document).ready(function() {
     }
   }
 
-  alert(states);
+  // alert(states);
   var initstate;
   console.log(states);
   //根据存储状态动态生成初始状态
   if (states == null) {
     initstate = 'start';
   } else if (states === 'killed') {
-    alert(states);
+    // alert(states);
     $("#kill").css("background-color", "lightpink");
     $(".trangle1").css("border-color","transparent lightpink transparent transparent");
     $('#nightID').text(killedrole);
