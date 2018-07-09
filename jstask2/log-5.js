@@ -32,7 +32,6 @@ $(document).ready(function() {
       // alert(voteId);
       voteRole = $(this).prev().prev().text();
       // 判断是否存活状态
-
       if(player[voteId-1].state == 'living') {
         // alert('确定投死此人吗？')
         $(this).siblings().css('background-color', '#c6c6c6');
@@ -47,11 +46,9 @@ $(document).ready(function() {
         }else  if(player[voteId-1].role == '杀手'){
           killers --;
         }
-
         // sessionStorage.setItem('votedMen',JSON.stringify(votedMen));
         // sessionStorage.setItem('players',JSON.stringify(player));
         status = '2';
-
       }
       // else if(player[voteId-1].state == 'die'){
       //   alert('不能再杀一次');
@@ -88,7 +85,6 @@ $(document).ready(function() {
       sessionStorage.setItem('killers',killers);
       status = '1';
       sessionStorage.setItem('status',status);
-
     }else {
       alert('请先投一个人');
     }
