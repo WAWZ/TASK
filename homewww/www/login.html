@@ -1,0 +1,39 @@
+
+<form name="myForm" class="bgimg" ng-controller="loginCtrl" novalidate>
+    <div class="log_in">
+        <p>后台登录</p>
+        <div class="logtext ">
+            <img src="img/user.jpg" alt="用户名">
+            <input type="text" id="username" name='name' autocomplete="off" ng-model="name"  ng-minlength="3"  ng-pattern="/^\S+$/"  ng-maxlength="12"  placeholder="用户名" required>
+        </div>
+        <div class="error" ng-show="myForm.name.$dirty && myForm.name.$invalid">
+        <!--<div class="error" ng-show="myForm.name.$invalid">-->
+            <small class="error" ng-show="myForm.name.$error.required">用户名不能为空</small>
+            <small class="error" ng-show="myForm.name.$error.minlength">用户名至少包含3个字符</small>
+            <small class="error" ng-show="myForm.name.$error.maxlength">用户名不能超过12个字符</small>
+            <small class="error" ng-show="myForm.name.$error.pattern">用户名不能包含空格</small>
+
+        </div>
+        <div class="error" ng-show="myForm.name.$pristine || myForm.name.$valid">
+            <small class="error">&emsp;</small>
+        </div>
+
+        <div class="logtext">
+            <img src="img/2.jpg" alt="密码">
+            <input type="text" id="password" name="pwd" autocomplete="off" placeholder="密码" ng-pattern="/^\S+$/"  ng-minlength="3" ng-maxlength="12" ng-model="pwd" required>
+        </div>
+        <div class="error" ng-show="myForm.pwd.$dirty && myForm.pwd.$invalid">
+            <!--<div class="error" ng-show="myForm.pwd.$invalid">-->
+            <small class="error" ng-show="myForm.pwd.$error.required">密码不能为空</small>
+            <small class="error" ng-show="myForm.pwd.$error.minlength">密码至少包含3个字符</small>
+            <small class="error" ng-show="myForm.pwd.$error.maxlength">用户名不能超过12个字符</small>
+            <small class="error" ng-show="myForm.pwd.$error.pattern">密码不能包含空格</small>
+        </div>
+        <div class="error" ng-show="myForm.pwd.$pristine || myForm.pwd.$valid">
+            <small class="error">&emsp;</small>
+        </div>
+        <button type="submit" style="margin-top: 10px" class="btn btn-info"  ng-mouseleave="leave()"  id="logIn" ng-disabled="myForm.$invalid"  ng-click="login()">登录</button>
+        <sapn id="result" style="height: 30px" ng-model="tips">{{tips}}</sapn>
+    </div>
+</form>
+

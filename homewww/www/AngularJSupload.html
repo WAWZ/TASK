@@ -1,0 +1,129 @@
+<!--<div class="acticleList" ng-controller="detailsCtrl">-->
+    <div class="panel panel-default" ng-controller="AppController" nv-file-drop="" uploader="uploader">
+    <div class="panel panel-default">
+        <div class="panel-heading list-flex-bettwen">
+            <b>新增Artical列表</b>
+        </div>
+        <div class="panel-body">
+            <form class="form-horizontal" role="form">
+                <div class="form-group">
+                    <label class="col-md-2 control-label">标题名称</label>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">类&emsp;&emsp;型</label>
+                    <div class="col-md-4">
+                        <!--<select name=""  type="text" class="form-control" ng-options="type in typesoption track by typesoption.id">-->
+                        <select name="" class="form-control" ng-model="detailTheOptions" required>
+                            <option value="">请选择</option>
+                            <option  ng-repeat="(x,y) in types" value="{{x}}"  ng-selected="detailTheOptions == x">{{y}}</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <select name=""  class="form-control" ng-model="detailTheSecondOptions" ng-show="detailTheOptions == 3" required>
+                            <option value="">请选择</option>
+                            <option ng-repeat="(x,y) in industry"  value="{{x}}"  ng-selected="detailTheSecondOptions">{{y}}</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">说&emsp;&emsp;明</label>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">跳转链接</label>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="" class="col-md-2 control-label">配&emsp;&emsp;图</label>
+                    <div class="col-md-8">
+                        <label for="uploadImg" class="btn btn-primary">选择文件</label>
+                        <input type="file" nv-file-select="" uploader="uploader" id="uploadImg"/>
+                    </div>
+                </div>
+
+                <div class="col-md-8 col-md-offset-2">
+
+                    <!--<div class="detail-show">-->
+                    <img id="detailImg" ng-src="{{detailImgUrl}}" class="img-responsive" alt="配图预览">
+                    <!--</div>-->
+                </div>
+                <!--</div>-->
+                <!--</div>-->
+                <!--</div>-->
+                <div class="col-md-8 col-md-offset-2 table-responsive">
+
+                    <table class="table table-striped">
+                        <thead>
+                        <tr>
+                            <th>图片名</th>
+                            <th>文件大小</th>
+                            <th>进度</th>
+                            <th>操作</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="item in uploader.queue">
+                                <td>
+                                    <strong>{{ item.file.name }}</strong>
+                <!-- Image preview -->
+                <!--auto height-->
+                <!--<div ng-thumb="{ file: item.file, width: 100 }"></div>-->
+                <!--auto width-->
+                                    <div ng-show="uploader.isHTML5" ng-thumb="{ file: item._file, height: 100 }"></div>
+                <!--fixed width and height -->
+                <!--<div ng-thumb="{ file: item.file, width: 100, height: 100 }"></div>-->
+                                </td>
+                                <td ng-show="uploader.isHTML5" nowrap>{{ item.file.size/1024/1024| number:2 }} MB</td>
+                                <td ng-show="uploader.isHTML5">
+                                    <div class="progress" style="margin-bottom: 0;">
+                                        <div class="progress-bar" role="progressbar" ng-style="{ 'width': item.progress + '%' }"></div>
+                                    </div>
+                                </td>
+                                <td class="text-center">
+                                    <span ng-show="item.isSuccess"><i class="glyphicon glyphicon-ok"></i></span>
+                                    <span ng-show="item.isCancel"><i class="glyphicon glyphicon-ban-circle"></i></span>
+                                    <span ng-show="item.isError"><i class="glyphicon glyphicon-remove"></i></span>
+                                </td>
+                                <td nowrap>
+                                    <button type="button" class="btn btn-success btn-xs" ng-click="item.upload()" ng-disabled="item.isReady || item.isUploading || item.isSuccess">
+                                        <span class="glyphicon glyphicon-upload"></span>上传
+                                    </button>
+                                    <!--<button type="button" class="btn btn-warning btn-xs" ng-click="item.cancel()" ng-disabled="!item.isUploading">-->
+                                        <!--<span class="glyphicon glyphicon-ban-circle"></span> Cancel-->
+                                    <!--</button>-->
+                                    <button type="button" class="btn btn-danger btn-xs" ng-click="item.remove()">
+                                        <span class="glyphicon glyphicon-trash"></span> 删除
+                                    </button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <div my-pic></div>
+
+
+                <div class="col-md-8 col-md-offset-2">
+                    <button class="btn btn-success">立即上线</button>
+                    <button class="btn btn-success">存为草稿</button>
+                    <button class="btn btn-default pull-right">取消</button>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+
+</div>
+
+
+

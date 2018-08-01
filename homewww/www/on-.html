@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcss.com/angular.js/1.7.0/angular.js"></script>
+
+</head>
+<body>
+
+<div ng-app="Demo" ng-controller="testCtrl as ctrl">
+    <input type="text" ng-change="ctrl.fn()" ng-model="ctrl.inputValue">
+    <p ng-model="ctrl.num">{{ctrl.num}}</p>
+</div>
+<input type="button" ng-click="isChecked = !isChecked" value="toggle" />
+<input type="checkbox" ng-checked="isChecked" />
+
+
+
+<!--<input type="button" value="add-count" ng-dblclick="count=count+1" ng-init="count=0;" />-->
+<!--{{count}}-->
+<script>
+  (function(){
+    angular.module('Demo',[]).controller("testCtrl",testCtrl);
+    function testCtrl(){
+      this.num = 0;
+      this.fn = function(){
+        console.log(this.inputValue);
+        this.num ++ ;
+      }
+    }
+  }());
+
+
+</script>
+
+
+<!--<script src="https://cdn.bootcss.com/angular.js/1.7.0/angular.js"></script>-->
+
+</body>
+</html>

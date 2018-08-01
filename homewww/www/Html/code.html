@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="angular.js"></script>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="CSS/bgnar.css">
+    <title>萝卜多</title>
+</head>
+<body>
+    <div class="acticleList">
+        <div class="panel panel-default">
+            <form class="form-horizontal" role="form">
+                <div class="panel-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-12">
+                                <div class="row form-group">
+                                        <label class="control-label col-md-4">发布时间</label>
+                                    <div class="col-md-8 col-sm-12">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <div class="row form-group">
+                                        <label class="control-label col-md-4">—</label>
+                                    <div class="col-md-8 col-sm-12">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <div class="row form-group">
+                                        <label class="control-label col-md-4">类型</label>
+                                    <div class="col-md-8 col-sm-12">
+                                        <select class="form-control">
+                                            <option value="0">全部</option>
+                                            <option value="1">首页Banner</option>
+                                            <option value="2">找职位Banner</option>
+                                            <option value="3">找精英Banner</option>
+                                            <option value="4">行业大图</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-12">
+                                <div class="row form-group">
+                                    <label class="control-label col-md-4">状态</label>
+                                    <div class="col-md-8 col-sm-12">
+                                        <select type="text" class="form-control">
+                                            <option value="0">全部</option>
+                                            <option value="1">上线</option>
+                                            <option value="2">草稿</option>
+                                            <!--<option value=""></option>-->
+                                            <!--<option value=""></option>-->
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 list-flex-right">
+                                <div class="list-flex-right">
+                                    <button class="btn btn-danger">清除</button>
+                                    <button class="btn btn-success">搜索</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading list-flex-bettwen">
+                <span>Artical列表</span>
+                <button class="btn-xs btn-success">+新增</button>
+            </div>
+            <div class="panel-body">
+                <table class="table table-striped add-border">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>名称</th>
+                            <th>类型</th>
+                            <th>发布时间</th>
+                            <th>修改时间</th>
+                            <th>发布者</th>
+                            <th>状态</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="list in users">
+                            <td>{{index + 1}}</td>
+                            <td> {{list.title}}</td>
+                            <td>{{list.type}}</td>
+                            <td>{{list.createAt}}</td>
+                            <td>{{list.updateAt}}</td>
+                            <td>{{list.author}}</td>
+                            <td>{{list.status}}</td>
+                            <td>
+                                <a href="" type="button" class="btn btn-sm">下线</a>
+                                <a href="" type="button" class="btn btn-sm">编辑</a>
+                                <a href="" type="button" class="btn btn-sm">删除</a>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--</body>-->
+
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.js"></script>
+    <script src="https://cdn.bootcss.com/angular.js/1.7.0/angular.js"></script>
+    <script src="//unpkg.com/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
+    <script src="JS/list.js"></script>
+
+</body>
+</html>

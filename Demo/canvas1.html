@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function draw() {
+          var canvas = document.getElementById("drow");
+          if (canvas.getContext) {
+            var ctx = canvas.getContext('2d');
+            // ctx.fillStyle = "rgb(200,0,0)";
+            // ctx.fillRect(10, 10, 55, 50);
+
+            ctx.fillStyle = "rgba(0,0,200,0.5)";
+            // ctx.fillRect(30, 30, 55, 50);
+            ctx.fillRect(25,25,100,100);
+            // ctx.clearRect(45,45,60,60);
+            // ctx.strokeRect(50,50,50,50);
+            ctx.beginPath();
+            // ctx.moveTo(100,25);
+            // ctx.lineTo(100,75);
+            // ctx.lineTo(75,50);
+            // ctx.stroke();
+            // ctx.fill();
+            //
+            // // 二次贝塞尔曲线
+            // ctx.beginPath();
+            // ctx.moveTo(75,25);
+            //
+            // ctx.quadraticCurveTo(25,25,25,62.5);
+            // ctx.quadraticCurveTo(25,100,50,100);
+            // ctx.quadraticCurveTo(50,120,30,125);
+            // ctx.quadraticCurveTo(60,120,65,100);
+            // ctx.quadraticCurveTo(125,100,125,62.5);
+            // ctx.quadraticCurveTo(125,25,75,25);
+            // ctx.stroke();
+
+          }
+        }
+    </script>
+    <style>
+        canvas{
+            border:1px solid black;
+        }
+    </style>
+</head>
+<body onload="draw();">
+ <canvas width="500px" height="200px" id="drow"></canvas>
+</body>
+</html>

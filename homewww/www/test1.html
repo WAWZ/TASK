@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title> New Document </title>
+    <style>
+        .one{
+            border: 1px solid red;
+        }
+        .two{
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <input id="user" type="text" required pattern="^[a-zA-Z0-9]{6,12}$" placeholder="请输入用户名"/>
+    <input type="submit" value="提交">
+</form>
+<!--<script>-->
+  <!--var user=document.getElementById("user");-->
+  <!--user.onblur=function(){-->
+    <!--if(user.value){-->
+      <!--user.setCustomValidity("");//现将有输入时的提示设置为空-->
+    <!--}else if(user.validity.valueMissing){-->
+      <!--user.setCustomValidity("用户名不能为空");-->
+    <!--};-->
+    <!--if(user.validity.patternMismatch){-->
+      <!--user.setCustomValidity("用户名只能是英文或数字，长度6到12位");-->
+    <!--}-->
+  <!--};-->
+<!--</script>-->
+
+
+
+
+
+<script>
+  function upperCase()
+  {
+    var x=document.getElementById("fname").value
+    document.getElementById("fname").value=x.toUpperCase();
+    var p = document.getElementById("p")
+    p.innerHTML = "变大写了";
+  }
+</script>
+</head>
+
+<p>请输入您的姓名，然后把焦点移动到字段外：</p>
+请输入您的姓名（英文字符）：<input type="text" name="fname" id="fname" onblur="upperCase()">
+
+<p id="p"></p>
+
+
+<input type="text" ng-class="border" ng-focus="border='one'" ng-blur="border='two'">
+
+</body>
+
+</html>

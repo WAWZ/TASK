@@ -1,0 +1,131 @@
+<div class="acticleList">
+    <div class="panel panel-default">
+        <form class="form-horizontal" role="form">
+            <div class="panel-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <div class="row form-group">
+                                <label class="control-label col-md-4">发布时间</label>
+                                <div class="col-md-8 col-sm-12">
+                                    <input type="text" class="form-control"
+                                           uib-datepicker-popup="yyyy-MM-d"
+                                           ng-model="datestart"
+                                           is-open="popup1.opened"
+                                           ng-required="true"
+                                           ng-click="open1()"
+                                           close-text="关闭"
+                                           clear-text="清空"
+                                           current-text="今天"
+                                           alt-input-formats="yyyy-MM-d">
+                                    <!--<input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="dat" is-open="popup1.opened" ng-required="true" close-text="关闭"-->
+                                    <!--clear-text="清空" current-text="今天" alt-input-formats="altInputFormats" />-->
+                                    <!--<span class="input-group-btn">-->
+                                    <!--<button type="button" class="btn btn-default" ng-click="open1()"><i class="glyphicon glyphicon-calendar"></i></button>-->
+                                    <!--</span>-->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="row form-group">
+                                <label class="control-label col-md-4">—</label>
+                                <div class="col-md-8 col-sm-12">
+                                    <!--<input type="text" class="form-control">-->
+                                    <input type="text" class="form-control"
+                                           uib-datepicker-popup="yyyy-MM-d"
+                                           ng-model="dateend"
+                                           is-open="popup2.opened"
+                                           ng-required="true"
+                                           ng-click="open2()"
+                                           close-text="关闭"
+                                           clear-text="清空"
+                                           current-text="今天"
+                                           alt-input-formats="yyyy-MM-d">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12">
+                            <div class="row form-group">
+                                <label class="control-label col-md-4">类&emsp;&emsp;型</label>
+                                <div class="col-md-8 col-sm-12">
+                                    <select class="form-control">
+                                        <option value="0">全部</option>
+                                        <option value="1">首页Banner</option>
+                                        <option value="2">找职位Banner</option>
+                                        <option value="3">找精英Banner</option>
+                                        <option value="4">行业大图</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <div class="row form-group">
+                                <label class="control-label col-md-4">状&emsp;&emsp;态</label>
+                                <div class="col-md-8 col-sm-12">
+                                    <select type="text" class="form-control">
+                                        <option value="0">全部</option>
+                                        <option value="1">上线</option>
+                                        <option value="2">草稿</option>
+                                        <!--<option value=""></option>-->
+                                        <!--<option value=""></option>-->
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 list-flex-right">
+                            <div class="list-flex-right">
+                                <button class="btn btn-danger">清除</button>
+                                <button class="btn btn-success">搜索</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading list-flex-bettwen">
+            <span>Artical列表</span>
+            <button class="btn-xs btn-success">+新增</button>
+        </div>
+        <div class="panel-body">
+            <table class="table table-striped add-border" ng-controller="pageCtrl">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>名称</th>
+                    <th>类型</th>
+                    <th>发布时间</th>
+                    <th>修改时间</th>
+                    <th>发布者</th>
+                    <th>状态</th>
+                    <th>操作</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat="list in lists">
+                    <td>{{ $index + 1}}</td>
+                    <td>{{list.title}}</td>
+                    <td>{{list.type | typeFilter}}</td>
+                    <td>{{list.author}}</td>
+                    <td>{{list.createAt | date:'yyyy-MM-dd HH:mm:ss'}}</td>
+                    <td>{{list.updateAt | date:'yyyy-MM-dd HH:mm:ss'}}</td>
+                    <td>{{list.status | statusFilter}}</td>
+                    <td>
+                        <a href="" type="button" class="btn btn-sm">下线</a>
+                        <a href="" type="button" class="btn btn-sm">编辑</a>
+                        <a href="" type="button" class="btn btn-sm">删除</a>
+                    </td>
+                </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+</div>

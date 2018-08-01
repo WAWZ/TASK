@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+ <html ng-app="myApp" xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+     <link href="https://cdn.bootcss.com/font-awesome/4.6.2/css/font-awesome.css" rel="stylesheet">
+    <!--<link href="/Content/bootstrap.css" rel="stylesheet" />-->
+        <title></title>
+    <script src="https://cdn.bootcss.com/angular.js/1.7.0/angular.js"></script>
+    <script src="https://cdn.bootcss.com/angular-ui-bootstrap/1.3.2/ui-bootstrap.js"></script>
+    <script src="https://cdn.bootcss.com/angular-ui-bootstrap/1.3.2/ui-bootstrap-tpls.js"></script>
+         <!--<script src="/Scripts/angular.js"></script>-->
+         <!--<script src="/Scripts/ui-bootstrap-tpls-1.3.2.js"></script>-->
+    <style>
+        div,ul{
+            margin: 0;
+            padding: 0;
+        }
+        .accordion-toggle { display: block; }
+        li{
+            list-style:none;
+            cursor: pointer;
+            margin: 0;
+            padding: 0;
+            line-height: 25px;
+            background-color: #9acfea;
+            /*background-color: #23527c;*/
+        }
+        a{
+            text-decoration: none;
+        }
+
+        /*<link href="https://cdn.bootcss.com/font-awesome/4.6.2/css/font-awesome.css" rel="stylesheet">*/
+    </style>
+         <script>
+
+           angular.module('myApp', ['ui.bootstrap']).controller('AccordionDemoCtrl', function ($scope) {
+                 $scope.oneAtATime = true;
+
+                 $scope.groups = [
+                   {
+                         title: '第一个面板',
+                       // content: '第一个面板的内容'
+                     content:[
+                       {name: '第一个面板的内容1',url:''},
+                       {name: '第一个面板的内容1',url:''},
+                       {name: '第一个面板的内容3',url:''},
+                     ]
+                },
+                  {
+                        title: '第二个面板',
+                         // content: '第二个面板的内容'
+                    content:[
+                      {name: '第一个面板的内容1',url:''},
+                      {name: '第一个面板的内容1',url:''},
+                      {name: '第一个面板的内容3',url:''},
+                    ]
+                   }
+                 ];
+
+                $scope.items = ['Item 1', 'Item 2', 'Item 3'];
+
+            $scope.addItem = function () {
+                      var newItemNo = $scope.items.length + 1;
+                     $scope.items.push('Item ' + newItemNo);
+                };
+
+               $scope.status = {
+                      isFirstOpen: true,
+                     isFirstDisabled: false
+               };
+            });
+
+      </script>
+
+     </head>
+ <body style="padding:10px;">
+   <div ng-controller="AccordionDemoCtrl">
+           <script type="text/ng-template" id="group-template.html">
+              <div class="panel {{panelClass || 'panel-default'}}">
+                       <div class="panel-heading">
+                           <h4 class="panel-title" style="color:#fa39c3">
+                               <a href tabindex="0" class="accordion-toggle" ng-click="toggleOpen()" uib-accordion-transclude="heading">
+                                    <span ng-class="{'text-muted': isDisabled}">&emsp;&emsp;{{heading}}</span>
+                            </a>
+                           </h4>
+                      </div>
+                       <div class="panel-collapse collapse" uib-collapse="!isOpen">
+                           <div class="panel-body" style="text-align: right" ng-transclude></div>
+                     </div>
+                  </div>
+           </script>
+
+           <!--<div class="checkbox">-->
+               <!--<label>-->
+                  <!--<input type="checkbox" ng-model="oneAtATime">-->
+                     <!--同一时间只展开一个面板-->
+               <!--</label>-->
+         <!--</div>-->
+         <uib-accordion close-others="oneAtATime">
+              <!--<uib-accordion-group  heading="标题" is-open="status.isFirstOpen" is-disabled="status.isFirstDisabled">-->
+                   <!--内容...-->
+               <!--</uib-accordion-group>-->
+             <uib-accordion-group heading="{{group.title}}" ng-repeat="group in groups">
+             <!--<i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>-->
+                 <ul ng-repeat="name in group.content">
+                     <li><a href="">{{ name.name }}</a></li>
+                 </ul>
+               </uib-accordion-group>
+               <!--<uib-accordion-group heading="动态内容">-->
+                    <!--<button type="button" class="btn btn-default btn-sm" ng-click="addItem()">Add Item</button>-->
+                   <!--<div ng-repeat="item in items">{{item}}</div>-->
+              <!--</uib-accordion-group>-->
+               <!--<uib-accordion-group heading="Custom template" template-url="group-template.html">-->
+                    <!--Hello-->
+                <!--</uib-accordion-group>-->
+               <!--<uib-accordion-group heading="提示面板" panel-class="panel-info">-->
+                     <!--注意面板的颜色-->
+                 <!--</uib-accordion-group>-->
+               <uib-accordion-group ng-repeat="group in groups">
+               <!--<uib-accordion-group is-open="status.open" ng-repeat="group in groups">-->
+                    <uib-accordion-heading>
+                        <i class="fa  fa-pencil"></i>&emsp;&emsp;
+                        {{group.title}}
+                        <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+                        <!--<i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>-->
+                   </uib-accordion-heading>
+                   <ul ng-repeat="name in group.content">
+                       <li>{{ name.name }}</li>
+                   </ul>
+              </uib-accordion-group>
+          </uib-accordion>
+      </div>
+
+ </body>
+ </html>

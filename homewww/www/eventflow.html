@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+
+    <style>
+        p,div,form{
+            margin: 20px;
+            padding: 20px;
+            border: 10px solid floralwhite;
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body>
+    <form id="form">FORM
+        <div id="div">DIV
+            <p id="p">P
+                <a href="http://www.jnshu.com/home" id="a">修真院</a>
+            </p>
+            <p>
+                12314556
+            </p>
+        </div>
+    </form>
+    <!--<a href="http://www.jnshu.com/home">修真院</a>-->
+    <script>
+      $(document).ready(function(){
+
+        $('form').click(function(){
+          setTimeout(
+            function(){
+              $("form").css("border-color","blue");
+              console.log('click to form');
+            },3000
+          )});
+        $('div').click(function(){
+          setTimeout(
+            function(){
+              $('div').css("border-color","green");
+              console.log('click to div');
+            },2000
+          )
+        });
+        $('p').click(function(event) {
+          setTimeout(
+            function () {
+              // $('p').css("border-color", "orange");
+              console.log('click to p');
+            }, 500
+          );
+
+          //IE9+,其他主流浏览器
+          // var event  = event || window.event;
+          // event.stopPropagation();
+          //火狐未实现
+         // window.event.cancelBubble = true;
+          //不建议滥用，jq中可以同时阻止冒泡和默认事件
+          // return false;
+          //兼容模式
+          //   stopBubble(event);
+        });
+
+        function stopBubble(e) {
+            //如果提供了事件对象，则这是一个非IE浏览器
+            if (e && e.stopPropagation){
+            // 因此它支持W3C的stopPropagation()方法
+              e.stopPropagation();
+          }else{
+            //否则，我们需要使用IE的方式来取消事件冒泡
+            window.event.cancelBubble = true;
+          }
+        }
+
+        // $("a").click(function(event){
+        // var event  = event || window.event;
+
+          //全支持
+          // event.preventDefault();
+          //该特性已经从 Web 标准中删除，虽然一些浏览器目前仍然支持它，但也许会在未来的某个时间停止支持，请尽量不要使用该特性。
+          // window.event.returnValue = false;
+          //不建议滥用，jq中可以同时阻止冒泡和默认事件
+          // return false;
+          // 兼容
+          // stopDefault(event);
+        // });
+        $("a").click(function(event){
+          // event.preventDefault();
+          // return false;
+        });
+
+        // 阻止浏览器的默认行为
+            function stopDefault( e ) {
+              // //阻止默认浏览器动作(W3C)
+              if (e && e.preventDefault) {
+                e.preventDefault();
+                // //IE中阻止函数器默认动作的方式
+              } else {
+                window.event.returnValue = false;
+                // return false;
+              }
+            }
+
+      });
+
+    </script>
+</body>
+</html>

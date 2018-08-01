@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="angular.js"></script>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="CSS/bgnar.css">
+    <title>萝卜多</title>
+</head>
+<body ng-app="list">
+    <header>
+    <div class="sider-clear">
+        <div class="navtop">
+            <div class="navbar-header">
+                萝卜多后台管理系统
+            </div>
+            <div class="navbar-header-second">
+                管理员
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="panel-heading">
+                <!--<h4 class="panel-title">-->
+                    <a data-toggle="collapse" data-parent="#accordion"
+                       href="#collapseOne" class="header-list">
+                       信息列表
+                    </a>
+                <!--</h4>-->
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <ul>
+                        <li><a href="">公司列表</a></li>
+                        <li><a ui-sref="other" ui-sref-active="">现回原形</a></li>
+                        <li><a ui-sref="hello" ui-sref-active="">点我点我</a></li>
+                        <li><a ui-sref="about" ui-sref-active="">偏不偏不</a></li>
+                        <li><a ui-sref="add"   ui-sref-active="">欢迎加入</a></li>
+                        <!--<li><a>Hello</a></li>-->
+                    </ul>
+                </div>
+                <!--<div class="panel-body">-->
+                    <!--Nihil anim keffiyeh helvetica-->
+                <!--</div>-->
+
+            </div>
+            <div class="panel-heading">
+                <a data-toggle="collapse" data-parent="#accordion"
+                   href="#collapseTwo" class="header-list">
+                    信息列表
+                </a>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <ul>
+                        <li><a href="">角色管理</a></li>
+                        <li><a href="">fdfdfd</a></li>
+                        <li><a href="">fdfdfd</a></li>
+                        <li><a href="">fdfdfd</a></li>
+                        <li><a href="">fdfdfd</a></li>
+                        <li><a href="">fdfdfd</a></li>
+                        <li><a href="">fdfdfd</a></li>
+                    </ul>
+                </div>
+                <!--<div class="panel-body">-->
+                <!--Nihil anim keffiyeh helvetica-->
+                <!--</div>-->
+
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <!--<body ng-app="helloworld">-->
+        <!--<a ui-sref="hello" ui-sref-active="active" style="float: left">Hello</a>-->
+        <!--<a ui-sref="about" ui-sref-active="active" style="float: left">About</a>-->
+
+        <ui-view></ui-view>
+    </div>
+        <!--<div class="acticleList">-->
+            <!--<div class="title">-->
+                <!--12-->
+            <!--</div>-->
+            <!--<div class="list">-->
+                <!--123-->
+            <!--</div>-->
+
+        <!--</div>-->
+        <!--</div>-->
+
+    </header>
+
+    <!--<div class="btn btn-default">{{"AngularJS"}}</div>-->
+    <!--<div class="btn btn-success">Bootstrap</div>-->
+    <!--<br>-->
+    <!--<button type = "button" class = "btn btn-primary" data-toggle = "collapse" data-target = "＃demo">-->
+    <!--简单的可折叠组件-->
+    <!--</button >-->
+    <!--<div id = "demo " class = "collapse in">-->
+        <!--Nihil anim keffiyeh helvetica-->
+    <!--</div>-->
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.js"></script>
+    <!--<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/npm.js"></script>-->
+    <script src="https://cdn.bootcss.com/angular.js/1.7.0/angular.js"></script>
+    <script src="//unpkg.com/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
+    <script src="https://cdn.bootcss.com/angular-ui-bootstrap/1.3.2/ui-bootstrap-tpls.js"></script>
+    <script src="JS/list.js"></script>
+    <!--<script src="JS/app.js"></script>-->
+</body>
+</html>

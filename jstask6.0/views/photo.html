@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="photo">
+    <div class="container">
+        <img ng-src="{{ detail.url }}">
+        <h2 class="photo-title"> {{ photos.title }} </h2>
+        <p class="photo-author"> {{ photos.author}} </p>
+        <p class="photo-views"> {{ photos.views | number }} </p>
+        <p class="photo-upvotes"> {{ photos.upvotes | number }} </p>
+        <p class="photo-pubdate"> {{ photos.pubdate | date }} </p>
+    </div>
+</div>
+</body>
+</html>

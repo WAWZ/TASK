@@ -1,0 +1,55 @@
+
+    <div class="wrapper"  ng-controller="pageCtrl">
+        <div class="navbar">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle  navbar-toggle-button" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <b class="topbar-brand">萝卜多后台管理系统</b>
+            </div>
+            <div class="topbar-content" ng-controller="loginCtrl">
+                <ul class="nav navbar-top-links navbar-right ng-isolate-scope">
+                    <li class="dropdown pull-right">
+                        <a class="dropdown-character"><span class="ng-binding">管理员</span></a>
+                        <span class="vertical">|</span>
+                        <a class="dropdown-name"><span class="ng-binding">admin</span></a>
+                        <span class="vertical">|</span>
+                        <a class="dropdown-toggle dropdown-close" ng-click="logout()">
+                        <span class="glyphicon glyphicon-off"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="sidebar ng-isolate-scope" role="navigation">
+            <div class="sidebar-nav navbar-collapse collapse" aria-expanded="false" style="">
+                <div ng-repeat="items in sideBar" class="sidebaritem">
+                    <div class="sidebartitle"
+                    ng-click="getTitle($index)">
+                        <i class="fa  fa-pencil"></i>&emsp;&emsp;
+                        <span>{{items.sideBarTitle}}</span>
+                        <i class="pull-right glyphicon" ng-class="gtitle == $index? 'glyphicon-chevron-down':  'glyphicon-chevron-right'"></i>
+                    </div>
+                    <div class="sidebarname"
+                            ng-repeat="item in items.sideBarContent"
+                            ng-show="gtitle == $parent.$index"
+                             ng-click="getContent(item.sideBarName,$parent.$index)"
+                                ng-class="{tcontent: gcontent === item.sideBarName}">
+                        <a  ui-sref="home.list">
+                            <span>{{item.sideBarName}}</span>
+                        </a>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <div id="page-wrapper">
+        <ui-view>
+            <div class="home-hello">
+                <p class="hello">Welcome here!</p>
+            </div>
+        </ui-view>
+    </div>
+</div>

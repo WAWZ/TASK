@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcss.com/angular.js/1.6.9/angular.js"></script>
+
+</head>
+<body>
+    <my-hello></my-hello>
+    <div></div>
+    <script>
+        var myApp = angular.module('myApp',[]);
+
+        myApp.directive('myHello',function(){
+        return {
+        restrict:'E',//匹配模式
+        replace:true,
+        template:'<div>hello</div>'
+        };
+        });
+        // var myApp = angular.module('myApp',[]);
+        // myApp.directive('myHello',function(){
+        //   return {
+        //     restrict : 'A',
+        //     replace : true,
+        //     template : '<div>hello angular</div>'
+        //   };
+        // });
+    </script>
+
+</body>
+</html>

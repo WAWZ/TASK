@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.bootcss.com/angular.js/1.7.0/angular.js"></script>
+</head>
+<body ng-app="list">
+<div ng-controller="LoadDataCtrl">
+    <p>hi244444444444</p>
+    <ul>
+        <li ng-repeat="user in users">
+            {{user.title}}
+        </li>
+    </ul>
+</div>
+<script>
+  var myApp = angular.module('list', []);
+  myApp.controller('LoadDataCtrl', ['$scope','$http', function($scope,$http){
+    $http({
+      method: 'GET',
+      params: {},
+      url:"/carrots-admin-ajax/a/article/search"
+      // url: '/carrots-admin-ajax/a/article/search'
+    }).then( function successCallback(response) {
+
+      $scope.users = response.data.data.articleList;
+    }, function errorCallback(response) {
+      console.log('jiaaa');
+    });
+  }]);
+</script>
+</body>
+</html>

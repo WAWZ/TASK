@@ -101,13 +101,12 @@ $(document).ready(function() {
         $(".trangle3").css("border-color","transparent lightpink transparent transparent");
         $(".trangle4").css("border-color","transparent lightpink transparent transparent");
       },
-      onAgain: function() {
-        console.log("AFTER5: ");
-        $("#kill").css("background-color","lightpink");
-      },
+      // onAgain: function() {
+      //   console.log("AFTER5: ");
+      //   $("#kill").css("background-color","lightpink");
+      // },
     }
   });
-// fsm.kill();
 //   状态机触发的事件
   kill.onclick = function (ev) {
   if(fsm.state === 'start') {

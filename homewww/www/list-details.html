@@ -1,0 +1,73 @@
+<div class="acticleList" ng-controller="detailsCtrl">
+    <div class="panel panel-default">
+        <div class="panel-heading list-flex-bettwen">
+            <b ng-hide="addhide">新增Artical列表</b>
+            <b ng-show="editor">编辑Artical列表</b>
+        </div>
+        <div class="panel-body">
+            <form class="form-horizontal" role="form" name="detailForm">
+                <div class="form-group">
+                    <label class="col-md-2 control-label">标题名称</label>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" ng-model="title" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">类&emsp;&emsp;型</label>
+                    <div class="col-md-4">
+                        <select name="" class="form-control" ng-model="firstOption" required>
+                            <option value="">请选择</option>
+                            <option  ng-repeat="(x,y) in types" ng-value="{{x}}"  ng-selected="firstOption == x">{{y}}</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <select name="" ng-model="secondOption"  ng-if="firstOption == 3"  class="form-control"  ng-required ng-selected="error(secondOption)">
+                            <option value="">请选择</option>
+                            <option ng-repeat="(x,y) in industry"  ng-selected="secondOption == x" ng-value="{{x}}" >{{y}}</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">说&emsp;&emsp;明</label>
+                    <div class="col-md-9">
+                            <div id="div1" class="toolbar"></div>
+                                <p>&emsp;</p>
+                            <div id="div2"  ng-model="content">
+                            </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-md-2 control-label">跳转链接</label>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" ng-model="url" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="" class="col-md-2 control-label">配&emsp;&emsp;图</label>
+                    <div class="col-md-9">
+                        <label for="detailFile" class="btn btn-primary">选择文件</label>
+                        <form>
+                            <input type="file"
+                                   id="detailFile"
+                                   accept="image/png, image/jpeg, image/gif, image/jpg"
+                                   onchange="angular.element(this).scope().getValue(this)">
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-9 col-md-offset-2">
+                    <img id="detailImg" ng-src="{{detailImgUrl}}" class="img-responsive" alt="配图预览">
+                </div>
+                <!--自定义指令图片预览-->
+                <div my-pic></div>
+
+                <div class="col-md-9 col-md-offset-2">
+                    <button class="btn btn-success" ng-click="online()" ng-disabled="detailForm.$invalid || detailImgUrl === undefined">立即上线</button>
+                    <button class="btn btn-success" ng-click="save()" ng-disabled="detailForm.$invalid || detailImgUrl === undefined">存为草稿</button>
+                    <button class="btn btn-default pull-right" ng-click="cancel()">取消</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+

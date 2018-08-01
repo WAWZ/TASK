@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{font-weight: normal;font-style: normal;}
+        .mask-layer{
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background:rgba(0,0,0,.6);
+        }
+        .model-container{
+            width: 400px;
+            height: 200px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 12px 4px #ff3;
+            text-align: center;
+            font-size: 18px;
+            color: #333;
+            position: absolute;
+            top: 50%;
+            left:50%;
+            -webkit-transform: translate(-50%,-50%);
+            -moz-transform: translate(-50%,-50%);
+            -ms-transform: translate(-50%,-50%);
+            -o-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+        }
+        .model-container .model-title{    font-size: 24px;}
+        .model-container .controls{
+            position: absolute;
+            bottom: 19px;
+            width: 100%;
+            padding: 12px;
+        }
+        .model-container a{
+            display: inline-block;
+            width: 49%;
+            text-align: center;
+            cursor: pointer;
+        }
+        .model-container .confirm{
+
+        }
+    </style>
+</head>
+<body>
+<button id="btn">开启模态框</button>
+<script>
+  var ModelBox=(function(){
+    var ModelBox=function(option){
+      this.option=option||{};
+      this.init();
+    };
+    ModelBox.prototype={
+      isShow:false,
+      init:function(){
+        var _this=this;
+        _this.isShow=this.option.isShow;
+        var html =
+          '<div class="model-container">'
+          +'<h1 class="model-title">title</h1>'
+          +'<div class="model-content"></div>'
+          +'<div class="controls">'
+          +'<a class="confirm">确定</a>'
+          +'<a class="cancel">取消</a>'
+          +'</div>'
+          +'</div>';
+        var ModelBoxCon=document.createElement("div");
+        ModelBoxCon.setAttribute("class","mask-layer");
+        ModelBoxCon.innerHTML=html;
+        ModelBoxCon.querySelector(".model-title").innerHTML=_this.option.title;
+        ModelBoxCon.querySelector(".model-content").innerHTML=_this.option.content;
+        document.getElementsByTagName("body")[0].appendChild(ModelBoxCon);
+        if(!_this.isShow){
+          ModelBoxCon.style.display="none";
+        }
+        ModelBoxCon.querySelector(".cancel").onclick=ModelBoxCon.querySelector(".confirm").onclick=_this.eventsFn.bind("",this,ModelBoxCon);
+
+
+      },
+      show:function(){
+        document.querySelector(".mask-layer").style.display="block";
+        this.isShow=true;
+      },
+      hide:function(){
+        document.querySelector(".mask-layer").style.display="none";
+        this.isShow=false;
+      },
+      eventsFn:function(e,doc,target){
+        var _thisEvent=target.target;
+        if(_thisEvent.classList.contains("confirm")){
+          e.option.confirmCallBack();
+        }
+        doc.style.display="none";
+        e.isShow=false;
+        return false;
+      }
+
+    }||{};
+    return ModelBox;
+  })();
+</script>
+<script>
+  var opt=new ModelBox({
+    "title":"确认删除吗",
+    "content":"",
+    "isShow":false,
+    "confirmCallBack":(function(){
+      alert("删除成功");
+    })
+
+  });
+  document.querySelector("#btn").onclick=function(){
+    !opt.isShow?opt.show():opt.hide();
+  }
+</script>
+</body>
+
+</html>
