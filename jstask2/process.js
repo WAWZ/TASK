@@ -143,15 +143,15 @@ $(document).ready(function() {
 
   $('#end').click(function(){
     alert('确定要结束游戏吗？祝你生活愉快。');
-    window.location.href = 'https://image.baidu.com/search/detail?ct=503316480&z=' +
-      '0&ipn=d&word=%E7%8B%97%E7%8B%97%E7%AC%91%E8%84%B8&step_word=&hs=2&pn=0&spn=0&d' +
-      'i=201684258270&pi=0&rn=1&tn=baiduimagedetail&is=0%2C0&istype=2&ie=utf-8&oe=utf-8&' +
-      'in=&cl=2&lm=-1&st=-1&cs=1950613125%2C3426874627&os=3995240967%2C2168466395&simid=3404' +
-      '567504%2C64546248&adpicid=0&lpn=0&ln=1971&fr=&fmq=1530960335736_R&fm=result&ic=0&s=undef' +
-      'ined&se=&sme=&tab=0&width=&height=&face=undefined&ist=&jit=&cg=&bdtype=0&oriquery=&objurl=h' +
-      'ttp%3A%2F%2Fs4.sinaimg.cn%2Fmw690%2F003jXYERgy6UUNnjZqX33&fromurl=ippr_z2C%24qAzdH3FAzdH3Fk' +
-      's52_z%26e3Bftgw_z%26e3Bv54_z%26e3BvgAzdH3FfAzdH3Fks52_kcm09dv1a8adoi96_z%26e3Bip4s&gsm=0&rps' +
-      'tart=0&rpnum=0&islist=&querylist=';
+    // window.location.href = 'https://image.baidu.com/search/detail?ct=503316480&z=' +
+    //   '0&ipn=d&word=%E7%8B%97%E7%8B%97%E7%AC%91%E8%84%B8&step_word=&hs=2&pn=0&spn=0&d' +
+    //   'i=201684258270&pi=0&rn=1&tn=baiduimagedetail&is=0%2C0&istype=2&ie=utf-8&oe=utf-8&' +
+    //   'in=&cl=2&lm=-1&st=-1&cs=1950613125%2C3426874627&os=3995240967%2C2168466395&simid=3404' +
+    //   '567504%2C64546248&adpicid=0&lpn=0&ln=1971&fr=&fmq=1530960335736_R&fm=result&ic=0&s=undef' +
+    //   'ined&se=&sme=&tab=0&width=&height=&face=undefined&ist=&jit=&cg=&bdtype=0&oriquery=&objurl=h' +
+    //   'ttp%3A%2F%2Fs4.sinaimg.cn%2Fmw690%2F003jXYERgy6UUNnjZqX33&fromurl=ippr_z2C%24qAzdH3FAzdH3Fk' +
+    //   's52_z%26e3Bftgw_z%26e3Bv54_z%26e3BvgAzdH3FfAzdH3Fks52_kcm09dv1a8adoi96_z%26e3Bip4s&gsm=0&rps' +
+    //   'tart=0&rpnum=0&islist=&querylist=';
   })
     //法官查看页面
   $('#log').click(function(){

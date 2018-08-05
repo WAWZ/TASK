@@ -5,12 +5,27 @@
             <b ng-show="editor">编辑Artical列表</b>
         </div>
         <div class="panel-body">
-            <form class="form-horizontal" role="form" name="detailForm">
+            <form class="form-horizontal" role="form"  name="myForm">
                 <div class="form-group">
-                    <label class="col-md-2 control-label">标题名称</label>
-                    <div class="col-md-9">
-                        <input type="text" class="form-control" ng-model="title" required>
+                    <label class="col-md-2 control-label">标题
+                    </label>
+                    <div class="col-md-8">
+                        <input type="text" name="title" class="form-control" ng-model="title"
+                             ng-minlength="1"  ng-maxlength="20" required>
                     </div>
+                    <span class="col-md-2" ng-messages="myForm.title.$error"
+                          ng-if="myForm.title.$dirty">
+                        <span ng-message="minlength">标题最小长度为1</span>
+                        <span ng-message="maxlength">标题最大长度为20</span>
+                        <span ng-message="required">请填写标题</span>
+                    </span>
+                    <!--<div class="col-md-2" ng-show="myForm.title.$dirty && myForm.title.$invaild">-->
+                    <!--<div class="col-md-2"  ng-show="myForm.title.$invaild">-->
+                        <!--<small ng-show="myForm.title.$error.required">用户名不能为空</small>-->
+                        <!--<small ng-show="myForm.title.$error.minlength">用户名长度不够</small>-->
+                        <!--<small ng-show="myForm.title.$error.maxlength">用户名长度超出范围</small>-->
+                        <!--<small ng-show="myForm.title.$error.pattern">用户名不能包含空格</small>-->
+                    <!--</div>-->
                 </div>
                 <div class="form-group">
                     <label class="col-md-2 control-label">类&emsp;&emsp;型</label>
@@ -21,7 +36,7 @@
                         </select>
                     </div>
                     <div class="col-md-4">
-                        <select name="" ng-model="secondOption"  ng-if="firstOption == 3"  class="form-control"  ng-required ng-selected="error(secondOption)">
+                        <select name="" ng-model="secondOption"  ng-if="firstOption == 3"  class="form-control"  ng-selected="error(secondOption)" required>
                             <option value="">请选择</option>
                             <option ng-repeat="(x,y) in industry"  ng-selected="secondOption == x" ng-value="{{x}}" >{{y}}</option>
                         </select>
@@ -29,7 +44,7 @@
                 </div>
                 <div class="form-group">
                     <label class="col-md-2 control-label">说&emsp;&emsp;明</label>
-                    <div class="col-md-9">
+                    <div class="col-md-8">
                             <div id="div1" class="toolbar"></div>
                                 <p>&emsp;</p>
                             <div id="div2"  ng-model="content">
@@ -38,14 +53,21 @@
                 </div>
                 <div class="form-group">
                     <label class="col-md-2 control-label">跳转链接</label>
-                    <div class="col-md-9">
-                        <input type="text" class="form-control" ng-model="url" required>
+                    <div class="col-md-8">
+                        <!--<input type="url" class="form-control" name="url" ng-model="url"  required>-->
+                        <!--<input type="text" class="form-control" name="url" ng-model="url" ng-pattern="urlType" required>-->
+                        <input type="url" class="form-control" name="url"  ng-model="url" ng-pattern="urlType" required>
+                    </div>
+                    <!--<div class="col-md-2" ng-messages="myForm.url.$error" ng-if="myForm.url.$dirty">-->
+                    <div class="col-md-2" ng-messages="myForm.url.$error">
+                        <span ng-message="required">跳转链接不能为空</span>
+                        <span ng-message="pattern">填写格式不正确</span>
                     </div>
                 </div>
 
                 <div class="form-group">
                     <label for="" class="col-md-2 control-label">配&emsp;&emsp;图</label>
-                    <div class="col-md-9">
+                    <div class="col-md-8">
                         <label for="detailFile" class="btn btn-primary">选择文件</label>
                         <form>
                             <input type="file"
@@ -55,15 +77,23 @@
                         </form>
                     </div>
                 </div>
-                <div class="col-md-9 col-md-offset-2">
+                <div class="col-md-8 col-md-offset-2">
                     <img id="detailImg" ng-src="{{detailImgUrl}}" class="img-responsive" alt="配图预览">
                 </div>
                 <!--自定义指令图片预览-->
                 <div my-pic></div>
 
-                <div class="col-md-9 col-md-offset-2">
-                    <button class="btn btn-success" ng-click="online()" ng-disabled="detailForm.$invalid || detailImgUrl === undefined">立即上线</button>
-                    <button class="btn btn-success" ng-click="save()" ng-disabled="detailForm.$invalid || detailImgUrl === undefined">存为草稿</button>
+                <div class="col-md-8 col-md-offset-2">
+                    <!--<button type="button" class="btn btn-success" data-ng-click="online()"-->
+                            <!--ng-disabled="myForm.title.$invalid ||myForm.url.$invalid || detailImgUrl == undefined ">-->
+                        <!--立即上线-->
+                    <!--</button>-->
+                    <!--ng-disabled="myForm.$invalid || detailImgUrl === undefined"-->
+                    <!--<button class="btn btn-success" ng-click="online()" ng-disabled="myForm.$invalid || detailImgUrl === undefined">立即上线</button>-->
+                    <button class="btn btn-success" ng-click="online()"
+                            ng-disabled="myForm.$invalid || detailImgUrl === undefined">立即上线</button>
+                    <button class="btn btn-success" ng-click="save()"
+                            ng-disabled="myForm.$invalid || detailImgUrl === undefined">存为草稿</button>
                     <button class="btn btn-default pull-right" ng-click="cancel()">取消</button>
                 </div>
             </form>

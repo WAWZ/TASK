@@ -76,6 +76,7 @@ myApp.directive('myPic', function ($http) {
 
           // 删除预览图
           scope.detailImgUrl = '';
+          // scope.detailBigPic = false;
 
           // 防止删除一个文件后不能再次上传同一个文件的问题,同时重置上传按钮
           $('#detailFile').val('');
@@ -91,7 +92,7 @@ myApp.directive('myPic', function ($http) {
           // scope.detailSmallPic = false;
 
           // 将大图预览框隐藏
-          // scope.detailBigPic = false;
+          scope.detailBigPic = false;
 
           // 进度条样式转换
           scope.detailOldProgress = false;

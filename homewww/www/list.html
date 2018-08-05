@@ -1,6 +1,6 @@
 <div class="acticleList"  ng-controller="pageCtrl">
     <div class="panel panel-default">
-        <form class="form-horizontal" role="form">
+        <form class="form-horizontal" role="form" novalidate>
             <div class="panel-body">
                 <div class="container-fluid">
                     <div class="row">
@@ -9,7 +9,7 @@
                                 <label class="control-label col-md-4">发布时间</label>
                                 <div class="col-md-8 col-sm-12">
                                     <input type="text" class="form-control"
-                                           uib-datepicker-popup="yyyy-MM-d"
+                                           uib-datepicker-popup="{{format}}"
                                            ng-model="datestart"
                                            is-open="popup1.opened"
                                            ng-required="true"
@@ -17,6 +17,7 @@
                                            close-text="关闭"
                                            clear-text="清空"
                                            current-text="今天"
+                                           datepicker-options={maxDate:dateend||daysDate,showWeeks:false}
                                            alt-input-formats="yyyy-MM-d">
                                 </div>
                             </div>
@@ -25,8 +26,8 @@
                             <div class="row form-group">
                                 <label class="control-label col-md-4">—</label>
                                 <div class="col-md-8 col-sm-12">
-                                    <input type="text" class="form-control"
-                                           uib-datepicker-popup="yyyy-MM-d"
+                                    <input type="text" class="form-control" id="datepicker"
+                                           uib-datepicker-popup="{{format}}"
                                            ng-model="dateend"
                                            is-open="popup2.opened"
                                            ng-required="true"
@@ -34,6 +35,7 @@
                                            close-text="关闭"
                                            clear-text="清空"
                                            current-text="今天"
+                                           datepicker-options={minDate:datestart,maxDate:daysDate,showWeeks:false}
                                            alt-input-formats="yyyy-MM-d">
                                 </div>
                             </div>
@@ -44,7 +46,7 @@
                                 <div class="col-md-8 col-sm-12">
                                     <select class="form-control" name="" ng-model="listTheType">
                                         <option value="">全部</option>
-                                        <option ng-repeat="(x,y) in types" ng-value="{{x}}">{{y}}</option>
+                                        <option ng-repeat="(x,y) in types" value="{{x}}">{{y}}</option>
                                     </select>
                                 </div>
                             </div>
@@ -53,7 +55,7 @@
                     <div class="row">
                         <div class="col-md-4 col-sm-12">
                             <div class="row form-group">
-                                <label class="control-label col-md-4"><span style="letter-spacing: 25px">状态</span></label>
+                                <label class="control-label col-md-4"><span style="letter-spacing: 15px">状态</span></label>
                                 <div class="col-md-8 col-sm-12">
                                     <select class="form-control" name="" ng-model="listTheStatus">
                                         <option value="">全部</option>
@@ -78,7 +80,7 @@
     <div class="panel panel-default">
         <div class="panel-heading list-flex-bettwen">
             <span>Artical列表</span>
-            <button class="btn-xs btn-success" ng-click="addlist()">+新增</button>
+            <button class="btn btn-success" ng-click="addlist()">+新增</button>
         </div>
         <div class="panel-body table-responsive">
             <table class="table table-striped add-border">

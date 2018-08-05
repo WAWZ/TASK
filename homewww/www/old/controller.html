@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcss.com/angular.js/1.7.0/angular.js"></script>
+    <script>
+    let app = angular.module('app',[]);
+    app.controller('MainCtrl', function ($scope) {
+    // $scope.name = "grandfather";
+    })
+    .controller('AnotherCtrl', function ($scope) {
+    $scope.name = "father";
+    })
+    .controller('YetAnotherCtrl', function ($scope) {
+    $scope.name = "son";
+    })
+    </script>
+
+</head>
+<body ng-app="app">
+    <div ng-controller="MainCtrl">
+        <!--{{ title }}-->
+        <!--<label>Name:-->
+            <input type="text" ng-model="name" />{{name}}
+        <!--</label>-->
+        <div ng-controller="AnotherCtrl">
+            <!--<label>Name:-->
+                <input type="text" ng-model="name" />{{name}}
+            <!--</label>-->
+            <!--{{ title }}-->
+            <div ng-controller="YetAnotherCtrl">
+                <!--<label>Name:-->
+                    <input type="text" ng-model="name" />{{name}}
+                <!--</label>-->
+                <p>{{ name }}</p>
+                <p>{{ $parent.name }}</p>
+                <p>{{ $parent.$parent.name }}</p>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

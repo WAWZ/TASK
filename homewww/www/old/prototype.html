@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script >
+
+        var a={
+          x:10,
+          calculate:function(z){
+            return this.x + this.y + z
+          }
+        }
+        console.log(1);
+        console.log(a.__proto__);
+        console.log(a.prototype);
+        console.log(1);
+
+        var b = Object.create(a, {x:{value:20},y: {value: 20}});
+        var c = Object.create(a, {y: {value: 30}});
+        var d = Object.create(a,{y:{value:10}});
+        console.log(a);
+        console.log(b);
+        console.log(c);
+        // console.log(b.calculate(30));
+        // console.log(c.calculate(40));
+        // console.log(d.calculate(40));
+
+        var b0 = {
+          y:120,
+          __proto__:a
+        };
+        var c0 = {
+          y:30,
+          __proto__:a
+        };
+        b0.calculate(30);
+        c0.calculate(40);
+        console.log(b0);
+        console.log(b0.calculate(40));
+        console.log(c0.calculate(40));
+
+        function Foo(y){
+          this.y = y;
+        }
+        console.log(2);
+        console.log(Foo.__proto__);
+        console.log(Foo.prototype);
+
+        console.log(2);
+        console.log(Foo.prototype.y); //undefined
+        // Foo.prototype.constructor(1);
+        console.log(Foo.prototype.y); // 1
+
+
+        Foo.prototype.x = 10;
+        Foo.prototype.calculate = function(z){
+          return this.x + this.y + z;
+        }
+
+        
+        console.log(3);
+        console.log(Foo.__proto__);
+        console.log(Foo.prototype);
+
+        console.log(3);
+        var e = new Foo(20);
+        var f = new Foo(30);
+        console.log(Foo);
+        console.log(e);
+        console.log(f);
+        // console.log(e.calculate(300));
+        // console.log(f.calculate(400));
+        console.log(
+          // b0.__proto__ === a.prototype,
+          // b0._proto_ === a,
+          // e.constructor === Foo,
+          // e.prototype.__proto__ === Foo.prototype,
+          e.__proto__ === Foo.prototype,
+          f.__proto__ === Foo.prototype,
+          // e._proto_ === Foo,
+
+          e.constructor === Foo,
+          f.constructor === Foo,
+          Foo.prototype.constructor === Foo,
+
+          e.calculate === e.__proto__.calculate,
+          e.__proto__.calculate === Foo.prototype.calculate,
+            Foo.prototype.__proto__ === Object.prototype,
+
+
+            // Number.prototype,
+            // Array.prototype,
+            //   Object.prototype,
+            // Object.__proto__,
+            // Function.__proto__ === Function.prototype
+
+
+          // e.prototype === Foo,
+           Foo.prototype === { } ,
+          Object.__proto__ === Function.prototype
+
+
+
+        )
+        console.log(100000);
+    console.log(  Object.prototype.__proto__);
+
+        function Foo1(){}
+        var Boo = {name: "Boo"};
+        Foo1.prototype = Boo;
+        var foo = new Foo1();
+
+        console.log(foo.__proto__ === Foo1.prototype); // true
+        console.log(foo.__proto__ === Boo);   // true
+        Object.getPrototypeOf(foo) === foo.__proto__;   // true
+    </script>
+</head>
+<body>
+
+</body>
+</html>

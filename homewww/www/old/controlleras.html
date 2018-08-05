@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcss.com/angular.js/1.7.0/angular.js"></script>
+    <script>
+        // <!--angular.module('app',[]).controller('demoCtrl',["$scope",function($scope){-->
+          <!--$scope.title = "angular";-->
+        <!--}])-->
+        <!--angular.module('app',[]).controller('demoCtrl',[function(){-->
+          <!--var vm = this;-->
+          <!--vm.title = 'angular hello!'-->
+        <!--}])-->
+       //嵌套开始
+       // let app = angular.module('app',[]);
+       //    app.controller('TestCtrl',
+       //      function ($window) {
+       //        let vm = this;
+       //        vm.name = 'grandfather';
+       //        vm.greet = function () {
+       //          alert('hi');
+       //        }
+       //      }).controller('demoCtrl',
+       //    function(){
+       //        let vm = this;
+       //        vm.name = 'father';
+       //    }).controller('childCtrl',
+       //      function(){
+       //      let vm = this;
+       //      vm.name = 'son';
+       //    })
+       // 嵌套结束
+
+        // angular.module('app', []).controller('TestCtrl', TestCtrl);
+        // angular.module('app', []).controller('demoCtrl', demoCtrl);
+        // TestCtrl.$inject = ['$window'];
+        // function TestCtrl($window) {
+        //   let vm = this;
+        //   vm.name = 'hello angular';
+        //   // this.$window = $window;
+        //   vm.greet = function () {
+        //     alert('hi');
+        //   }}
+          // angular.module('app', []).controller('demoCtrl', demoCtrl);
+          // function demoCtrl(){
+          //   let vm = this;
+          //   vm.name = 'wawz';
+          // }
+
+        // TestCtrl.prototype.greet = function () {
+        //   this.$window.alert('Hello, ' + this.name);
+        // }
+        //绑定
+        // let app = angular.module("app",[]);
+        // app.controller('MainCtrl', function ($scope) {
+        //   this.title = 'Some title';
+        //   $scope.$on('someEventFiredFromElsewhere', function (event, data) {
+        //     // do something!
+        //     alert('hi');
+        //   });
+        // });
+        let app = angular.module("app",[]);
+        app.controller('MainCtrl', function ($scope) {
+          let vm = this;
+          vm.title = 'Some title';
+          vm.name = "1";
+          $scope.$watch(
+            "vm.name",
+            // "this.name",
+            function (newVal, oldVal) {
+            if (vm.name > 100) {
+              vm.name = 0;
+            }
+            console.log(newVal, oldVal);
+          });
+        });
+
+        // function () {
+        // return vm.name;},
+
+
+        //
+        // app.config(function ($routeProvider) {
+        //   $stateProvider
+        //     .state('tab.history', {
+        //       url: '/history',
+        //       views:{
+        //         'personInfo':{
+        //           templateUrl: 'history.html',
+        //           controller: 'historyCtrl as history'
+        //         }
+        //       }
+        //     })
+        // })
+
+                 // nearly there...
+          // $scope.$watch(function () {
+          //   return this.title; // `this` isn't the `this` above!!
+          // }, function (newVal, oldVal) {});
+
+
+          // $scope.$watch("vm.name",function(newValue,oldValue){
+          //   // console.log(vm.title+vm.name);
+          //   if(vm.name>100){
+          //     vm.name = 0;
+          //   }
+          // });
+
+          // $scope.$watch(angular.bind(this, function () {
+          //   return this.name; // `this` IS the `this` above!!
+          // }), function (newVal, oldVal) {
+          //   console.log(newVal ,oldVal);
+          //   // if(newVal > oldVal ){
+          //     // alert('hi');
+          //     //   vm.name = 0;
+          //
+          // });
+        //
+        // $scope.$watch(angular.bind(this, function () {
+        //   return this.name; // `this` IS the `this` above!!
+        // }), function (newVal, oldVal) {
+        //   console.log(newVal ,oldVal);
+        //   if(newVal > oldVal ) {
+        //     vm.name = 0;
+        //   }
+        // });
+
+
+            // console.log(vm.name);
+        // });
+    </script>
+</head>
+<body ng-app="app">
+        <!--绑定-->
+
+    <div ng-controller="MainCtrl as vm">
+        {{vm.title}}
+        <input type="text" ng-model="vm.name">
+        {{vm.name}}
+    </div>
+
+<!--嵌套开始-->
+    <!--<div ng-controller="TestCtrl as vm">-->
+        <!--&lt;!&ndash;<label>Name:&ndash;&gt;-->
+            <!--<input type="text" ng-model="vm.name" />{{vm.name}}-->
+        <!--&lt;!&ndash;</label>&ndash;&gt;-->
+        <!--&lt;!&ndash;<button type="button" ng-click="vm.greet()"></button>&ndash;&gt;-->
+        <!--<div ng-controller="demoCtrl as a">-->
+            <!--&lt;!&ndash;<label>Name:&ndash;&gt;-->
+                <!--<input type="text" ng-model="a.name" />{{a.name}}-->
+            <!--&lt;!&ndash;</label>&ndash;&gt;-->
+        <!--&lt;!&ndash;{{a.name}}&ndash;&gt;-->
+            <!--<div ng-controller="childCtrl as b">-->
+                <!--&lt;!&ndash;<label>Name:&ndash;&gt;-->
+                    <!--<input type="text" ng-model="b.name" />{{b.name}}-->
+                <!--&lt;!&ndash;</label>&ndash;&gt;-->
+                <!--<p>{{vm.name}}</p>-->
+                <!--<p>{{a.name}}</p>-->
+                <!--<p>{{b.name}}</p>-->
+
+
+                <!--&lt;!&ndash;<input type="text" ng-model="">&ndash;&gt;-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--嵌套结束-->
+<!--var myFather = function(){-->
+<!--this.title = 'son'-->
+<!--};-->
+<!--var myson = new myFather();-->
+        <!--let app = angular.module('app',[]);-->
+        <!--app.controller('TestCtrl',-->
+        <!--function () {-->
+        <!--let vm = this;-->
+        <!--vm.name = 'grandfather';-->
+        <!--})-->
+        <!--<div ng-controller="TestCtrl as vm">-->
+            <!--<input type="text" ng-model="vm.name" />{{vm.name}}-->
+        <!--</div>-->
+
+
+
+
+
+</body>
+</html>

@@ -256,6 +256,15 @@ a:active {
 .error{
     color: burlywood;
 }
+button:focus{
+    outline: 0!important;
+    box-shadow: none!important;
+}
+
+.btn-success,.btn-xs{
+   text-shadow: none!important;
+   box-shadow: none!important;
+}
 /*.nav>li>a {*/
     /*position: relative;*/
     /*display: inline-block;*/

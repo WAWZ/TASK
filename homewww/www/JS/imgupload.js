@@ -15,6 +15,7 @@ myApp.directive('myPic',function($http){
         });
 
         //上传
+        scope.fileReader = new FileReader();
         scope.UpDown = function(){
           var formData = new FormData();
           // 将要上传的参数以键值对的形式存入formData
@@ -48,6 +49,7 @@ myApp.directive('myPic',function($http){
                 scope.detailUp = true;
                 //显示已经上传到服务器的文件地址
                 scope.detailImgUrl = response.data.data.url;
+                console.log("上传成功")
               }else{
                 alert('上传失败');
               }
@@ -60,7 +62,9 @@ myApp.directive('myPic',function($http){
         scope.Delete = function(){
           //中断读取
           // scope.fileReader.abort();
-          scope.detailImgUrl = '';
+          // scope.detailImgUrl = '';
+          scope.detailImgUrl = undefined;
+
           //将input值清空，避免删除后无法上传同一张图片
           $('#detailFile').val('');
           // scope.val = 0;
@@ -73,6 +77,7 @@ myApp.directive('myPic',function($http){
           //空进度条显示 满进度条隐藏
           scope.emptyProgress = false;
           scope.fullProgress = false;
+          console.log("删除成功");
         };
       };
     }

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html" ng-app="myApp">
+<head>
+    <meta charset="UTF-8"/>
+    <title> New Document </title>
+    <script src="https://cdn.bootcss.com/angular.js/1.7.0/angular.js"></script>
+
+    <style>
+        .one,.mm{
+            outline:none;
+
+            border: 2px solid red;
+            /*background-color: #1b6d85;*/
+        }
+        .two,.gg{
+            border: 1px solid blue;
+            /*background-color: #e1e5e7;*/
+        }
+        .border,.home{
+            outline:none;
+            background-color: chartreuse;
+        }
+    </style>
+
+</head>
+<body>
+<form ng-controller="hi" novalidate>
+    <input  ng-class="border"  ng-focus="border = 'one'" ng-blur="border = 'two'">
+    <input  ng-class="{border:true}">
+    <input  ng-class="home">
+    <input  ng-class="border">
+    <!--<input  ng-class="{{border}}"  ng-focus="one()" ng-blur="two()">-->
+</br>
+    <input id="user" type="text" required pattern="^[a-zA-Z0-9]{6,12}$" placeholder="请输入用户名"/>
+    <input type="submit" value="提交">
+<!--<script>-->
+  <!--var user=document.getElementById("user");-->
+  <!--user.onblur=function(){-->
+    <!--if(user.value){-->
+      <!--user.setCustomValidity("");//现将有输入时的提示设置为空-->
+    <!--}else if(user.validity.valueMissing){-->
+      <!--user.setCustomValidity("用户名不能为空");-->
+    <!--};-->
+    <!--if(user.validity.patternMismatch){-->
+      <!--user.setCustomValidity("用户名只能是英文或数字，长度6到12位");-->
+    <!--}-->
+  <!--};-->
+<!--</script>-->
+
+<!--<script>-->
+  <!--function upperCase()-->
+  <!--{-->
+    <!--var x=document.getElementById("fname").value-->
+    <!--document.getElementById("fname").value=x.toUpperCase();-->
+    <!--var p = document.getElementById("p")-->
+    <!--p.innerHTML = "变大写了";-->
+  <!--}-->
+<!--</script>-->
+
+<!--<p>请输入您的姓名，然后把焦点移动到字段外：</p>-->
+<!--请输入您的姓名（英文字符）：<input type="text" name="fname" id="fname" onblur="upperCase()">-->
+
+<!--<p id="p"></p>-->
+
+
+<!--<input  ng-class="home" ng-focus="home='mm'" ng-blur="home='gg'">-->
+
+
+</form>
+
+<script>
+  myApp = angular.module('myApp',[]);
+  myApp.controller("hi",function($scope){
+    $scope.one = function(){
+      $scope.border = 'one';
+    }
+
+  })
+</script>
+</body>
+
+</html>

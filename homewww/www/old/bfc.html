@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .father{
+            border: 1px solid red;
+            /*width: 500px;*/
+            /*height: 1000px;*/
+            /*display: table;*/
+            /*float: right;*/
+        }
+        .son{
+            height: 100px;
+            width: 300px;
+            background-color: #9acfea;
+            /*float: left;*/
+            margin: 100px;
+            /*float: left;*/
+        }
+        .son2{
+            width: 100px;
+                 height: 100px;
+                 background-color: #9acfea;
+                 margin: 100px;
+                 }
+        <!--.wrap {-->
+            <!--width:330px;-->
+            <!--background: #08c;-->
+            <!--overflow: hidden;-->
+        <!--}-->
+        <!--.item {-->
+            <!--width: 300px;-->
+            <!--height: 50px;-->
+            <!--margin: 15px;-->
+            <!--line-height: 50px;-->
+            <!--text-align: center;-->
+            <!--color: #fff;-->
+            <!--background: #6c0;-->
+        <!--}-->
+        <!--.m2{-->
+            <!--margin: 30px ;-->
+        <!--}-->
+    </style>
+
+    <!--<style>-->
+        <!--body{-->
+            <!--background-color:yellow;-->
+        <!--}-->
+        <!--. a {-->
+            <!--position: absolute;-->
+
+            <!--display: inline-block;-->
+
+            <!--margin: 10px;-->
+            <!--padding: 20px 10px;-->
+
+            <!--background-color: whitesmoke;-->
+        <!--}-->
+        <!--.a-1{-->
+            <!--display: inline-block;-->
+
+            <!--/*position: absolute;*/-->
+
+            <!--padding: 20px 10px;-->
+            <!--background-color: #9acfea;-->
+            <!--/*display: inline-block;*/-->
+
+        <!--}-->
+        <!--.a-2{-->
+            <!--display: inline-block;-->
+
+            <!--padding: 20px 10px;-->
+            <!--background-color: greenyellow;-->
+            <!--position: absolute;-->
+            <!--top: 0;-->
+            <!--left: 0;-->
+        <!--}-->
+        <!--/*div{*/-->
+        <!--/*}*/-->
+    <!--</style>-->
+</head>
+<body>
+    <div class="father">
+        <div class="son"></div>
+        <div class="son2"></div>
+    </div>
+    <!--<div class="wrap">-->
+        <!--<div class="item">aaa</div>-->
+        <!--<div class="item m2">bbb</div>-->
+        <!--<div class="item">ccc</div>-->
+    <!--</div>-->
+
+    <div class="a">a
+        <div class="a-1">a-1
+            <div class="a-2">
+                a-2
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var color = "blue";
+        function changeColor(){
+          var anotherColor = "red";
+          function swapColors(){
+            var tempColor = anotherColor;
+            anotherColor = color;
+            color = tempColor;
+          }
+          swapColors();
+          console.dir(swapColors);
+
+        }
+        changeColor();
+        console.log("Color is now "+color);
+        console.dir(changeColor);
+
+    </script>
+
+</body>
+</html>

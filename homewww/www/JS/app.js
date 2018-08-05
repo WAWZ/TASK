@@ -1,4 +1,4 @@
-var myApp = angular.module('myApp', ['ui.router', 'ui.bootstrap']);
+var myApp = angular.module('myApp', ['ui.router', 'ui.bootstrap','ngMessages']);
 myApp.config(function ( $urlRouterProvider,$stateProvider) {
   //默认跳转login.html
   $urlRouterProvider.when('','/login');

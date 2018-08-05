@@ -32,8 +32,14 @@
 // }]);
 myApp.controller('pageCtrl',function ($scope, $http, $state, $stateParams,status,types,sideBar) {
 
+
+
+
+
+
 $scope.params = $stateParams;
 console.log($stateParams);
+// $scope.datestart = Number($scope.params.startAt) || undefined;
 $scope.datestart = Number($scope.params.startAt) || undefined;
 $scope.dateend = Number($scope.params.endAt) || undefined;
 $scope.listTheType = $scope.params.type;
@@ -48,7 +54,7 @@ $scope.sideBar = sideBar;
 $scope.gtitle=sessionStorage.getItem('title');
 $scope.gcontent=sessionStorage.getItem('content');
 // $scope.gname = sessionStorage.getItem('name');
-  // $scope.gname ='';
+
 
 $scope.getTitle = function(e) {
   // $scope.x = e;
@@ -98,8 +104,20 @@ $http({
 console.log($scope.currentPage);
 
 // 日期插件
-// $scope.format = "yyyy/MM/dd";
-// $scope.altInputFormats = ['yyyy/MM/dd'];
+
+  $scope.format = "yyyy/MM/dd";
+  $scope.daysDate= new Date();
+  // vm.daysDate = $rootScope.getTimeNow();
+  // console.log($scope.dateend);
+  // $scope.minchoose = {
+  //   maxDate: $scope.dateend?$scope.dateend : $scope.new
+  // };//
+
+  // $scope.maxchoose = {
+  //   minDate:$scope.datestart,
+  //   maxDate:$scope.new
+  // };
+
   $scope.popup1 = {
   opened: false
 };
@@ -108,9 +126,13 @@ console.log($scope.currentPage);
 };
   $scope.open1 = function () {
   $scope.popup1.opened = true;
+  $scope.datestart = undefined;
+
 };
   $scope.open2 = function () {
   $scope.popup2.opened = true;
+  $scope.dateend = undefined;
+
 };
 
 // 分页插件选择第几页
@@ -118,9 +140,11 @@ console.log($scope.currentPage);
   console.log($scope.currentPage);
   $state.go('home.list', {
     page: $scope.currentPage,
-  }, {
-    reload: true
-  });
+  }
+  // , {
+  //   reload: true
+  // }
+  );
 };
 
 // 确认显示多少条数据以及跳转到第几页
@@ -130,9 +154,11 @@ console.log($scope.currentPage);
     size: $scope.currentSize,
     page: $scope.listPagePicker,
     // console.log(1234);
-  }, {
-    reload: true
-  });
+  }
+  // , {
+  //   reload: true
+  // }
+  );
 };
 
   //清除
@@ -143,9 +169,12 @@ console.log($scope.currentPage);
       status:undefined,
       startAt:undefined,
       endAt:undefined
-    },{
-      reload:true
-    })
+    }
+    // ,
+      // {
+      // reload:true
+    // }
+    )
     console.log('clear');
   };
 
@@ -171,9 +200,11 @@ console.log($scope.currentPage);
           status: $scope.listTheStatus,
           startAt: $scope.datestart,
           endAt: $scope.dateend
-        }, {
-          reload: true
-        });
+        }
+        // , {
+        //   reload: true
+        // }
+        );
   console.log('end');
   }
 

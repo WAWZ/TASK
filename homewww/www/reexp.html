@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // 创建正则的两种方式
+    </script>
+</head>
+<body>
+<!--<script>
+    <!--// 字面量
+    <!--[]
+    <!--{}
+    <!--//
+    <!--// 构造函数
+    <!--new Array()
+    <!--new Object()
+    <!--new RegExp()
+
+    <!--i ignoreCase
+    <!--g global
+    <!--m multiline
+    <!--转义字符
+<!--/\/\/
+
+    <!--/js/i
+    <!--new RegExp("js","i") //可以用变量
+
+    <!--var js = "jsjsjsjsjs";
+    <!--
+
+
+</script>
+    // <!--<div class="regexp">
+    //    \4e00-\u9fa5
+    //    [js]匹配任意一个字符
+    //    ^取反
+    //    [a-zA-Z0-9]从小到大   = \w
+    //    [^a-zA-Z0-9]从小到大   = \W
+    //    [0-9]\d>
+    //    匹配空格或者制表符\s
+    //    匹配除了空格或者制表符等字符\S
+    //    用户名可以包含空格中文和字母数字以及下划线-/[\ue400-\u9fa5\s\w]/
+    //    /./-除了换行符都能匹配
+    //
+    //    /[\u4e00-\u9fa5]/匹配汉字
+
+    // <!--</div>
+// <script>
+    //   /\d{2}/匹配两个数字
+    //    /\d{1,}}/匹配至少1个
+    //    /\d{1,2}}/匹配1-2次
+//     /\d?/ 匹配0次或者1次，可有可无
+//    /\d+/ 至少匹配一次
+////    /\d*/ 至少匹配0次
+
+//    价格是13.4
+//    var pattern = /\d+\.?\d*/
+//    var pattern = /\d{1,}\.{0,1}\d{0,}/
+//    正整数 负整数 匹配 /-?[1-9]\d{0,}/   /-{0,1}[1-9]\d*/
+//    匹配整数  /0|-?[1-9]\d*/
+//    贪婪匹配  尽可能多的匹配  在后面加？
+//    | 或  /html|css|js/ 从左边开始匹配  匹配成功后后面不再匹配
+//    + * 等影响的是最邻近的一个 ab+ (ab)+
+//    ()捕获内容    （？：  ）非捕获内容
+//    嵌套   ((ab) cd \1)  \1 代表第一个分组
+//    匹配字符位置
+//  首匹配  ^匹配开头的位置 /^js/   跟[^0-9]字符类里面取反不一样
+   // 尾匹配    /js$/
+    // /^\d+$/    = 全是数字 =  /\D/
+// \d  单词边界匹配
+// /java(?=script)/  前瞻性匹配  java后面是script时才匹配
+//   /java(?!script)/  反向前瞻性匹配  java后面不是script时才匹配
+
+//构造函数双重转义  \\s \\b  等
+//RegExp 实例方法
+//var  str = 'js js js'
+// var pattern = /js/g;
+// var pattern = new RegExp('js');
+// pattern.lastIndex   全局就是匹配上的下一个位置  默认非全局是0  找不到为null时 会重置为0
+// pattern.text
+ //pattern.exec
+ //继承来的方法
+ //pattern.toString()
+ //pattern.toLocaleString()
+ //pattern.valueOf()
+
+ //实例属性
+ //
+
+ //string对象中与正则相关的方法之search match split replace
+ // str.search(pattern)  全局匹配无影响  返回的是数字
+ //  str.match（pattern）
+
+ // match  vs exec
+
+// str.replace("js","hl");  替换了第一个js
+// 敏感词
+// 
+
+
+    
+
+
+
+
+
+</script>
+
+</body>
+</html>

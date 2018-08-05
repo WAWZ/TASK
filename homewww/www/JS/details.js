@@ -14,6 +14,15 @@ myApp.controller('detailsCtrl',function($scope,$http,$state,$stateParams,types,i
     console.log(x);
   }
 
+  //正则判断
+  // $scope.urlType = "^(http|https|ftp)\://([a-zA-Z0-9\.\-]+(\:[a-zA-Z0-9\.&%\$\-]+)*@)*" +
+  //   "((25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[1-9])\." +
+  //   "(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[1-9]|0)\." +
+  //   "(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[1-9]|0)\." +
+  //   "(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[0-9])|localhost|([a-zA-Z0-9\-]+\.)*[a-zA-Z0-9\-]+\." +
+  //   "(com|edu|gov|int|mil|net|org|biz|arpa|info|name|pro|aero|coop|museum|[a-zA-Z]{2}))(\:[0-9]+)*(/($|[a-zA-Z0-9\.\,\?\'\\\+&%\$#\=~_\-]+))*$";
+$scope.urlType ='^(http|https|ftp)\\://([a-zA-Z0-9\\.\\-]+(\\:[a-zA-Z0-9\\.&%\\$\\-]+)*@)*((25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[1-9])\\.(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[1-9]|0)\\.(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[1-9]|0)\\.(25[0-5]|2[0-4][0-9]|[0-1]{1}[0-9]{2}|[1-9]{1}[0-9]{1}|[0-9])|localhost|([a-zA-Z0-9\\-]+\\.)*[a-zA-Z0-9\\-]+\\.(com|edu|gov|int|mil|net|org|biz|arpa|info|name|pro|aero|coop|museum|[a-zA-Z]{2}))(\\:[0-9]+)*(/($|[a-zA-Z0-9\\.\\,\\?\\\'\\\\\\+&%\\$#\\=~_\\-]+))*$'
+
   //初始化
   $scope.params = $stateParams;
   $scope.firstOption = undefined;
@@ -42,6 +51,7 @@ myApp.controller('detailsCtrl',function($scope,$http,$state,$stateParams,types,i
 
 
   $scope.online = function(){
+      console.log("即将上传");
     $http({
       //三目运算符判断新增上线还是编辑上线
       method:$scope.params.id ? 'PUT':'POST',
@@ -65,7 +75,7 @@ myApp.controller('detailsCtrl',function($scope,$http,$state,$stateParams,types,i
       message:'修改成功',
       size:'small'
     });
-    reload:true;
+    // reload:true;
   }else{
     alert(response.data.message);
     }
@@ -96,7 +106,7 @@ myApp.controller('detailsCtrl',function($scope,$http,$state,$stateParams,types,i
           message:'保存成功',
           size:'small'
         });
-        reload:true;
+        // reload:true;
       }else{
         alert(response.data.message);
         alert(response.data.code);
@@ -107,7 +117,7 @@ myApp.controller('detailsCtrl',function($scope,$http,$state,$stateParams,types,i
     //取消
     $scope.cancel = function(){
       $state.go('home.list');
-      reload:true;
+      // reload:true;
     }
 
 })
